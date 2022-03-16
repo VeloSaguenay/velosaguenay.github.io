@@ -24,6 +24,14 @@ body {
     bottom: 26% !important;
 }
 
+.carousel-static .carousel-item .carousel-caption {
+    bottom: 35% !important;
+}
+
+.carousel-static .carousel-item {
+    height: 20rem;
+}
+
 .carousel-item img {
     min-height: 32rem;
     object-fit: cover;

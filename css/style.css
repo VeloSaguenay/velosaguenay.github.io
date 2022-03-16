@@ -17,7 +17,17 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-    max-height: 32rem;
+    height: 32rem;
+}
+
+.carousel-item .carousel-caption {
+    bottom: 26% !important;
+}
+
+.carousel-item img {
+    min-height: 32rem;
+    object-fit: cover;
+    object-position: bottom;
 }
 
 
@@ -31,12 +41,6 @@ body {
 .marketing h2 {
     font-weight: 400;
 }
-/* rtl:begin:ignore */
-.marketing .col-lg-4 p {
-    margin-right: .75rem;
-    margin-left: .75rem;
-}
-/* rtl:end:ignore */
 
 h2.partners {
     text-align: center;

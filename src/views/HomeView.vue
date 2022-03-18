@@ -7,18 +7,18 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="media/images/gallery/not_free_6.jpeg" class="img-fluid" alt="">
+        <img src="@/assets/media/images/gallery/not_free_6.jpeg" class="img-fluid" alt="">
 
         <div class="container">
           <div class="carousel-caption text-start">
             <h1>Le Panoramique</h1>
             <p>Des sentiers de rêves en été comme en hiver !</p>
-            <p><a class="btn btn-lg btn-primary mt-3" href="media/documents/trails_map.pdf" target="_blank">Cartes des sentiers</a></p>
+            <p><a class="btn btn-lg btn-primary mt-3" href="documents/trails_map.pdf" target="_blank">Cartes des sentiers</a></p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <img src="media/images/gallery/not_free_7.jpeg" class="img-fluid" alt="" style="filter: brightness(50%);">
+        <img src="@/assets/media/images/gallery/not_free_7.jpeg" class="img-fluid" alt="" style="filter: brightness(50%);">
 
         <div class="container">
           <div class="carousel-caption text-end">
@@ -29,7 +29,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="media/images/gallery/not_free_1.jpg" class="img-fluid" alt="" style="filter: brightness(80%);">
+        <img src="@/assets/media/images/gallery/not_free_1.jpg" class="img-fluid" alt="" style="filter: brightness(80%);">
 
         <div class="container">
           <div class="carousel-caption text-start">
@@ -64,10 +64,10 @@
       <div class="col-md-7">
         <h2 class="featurette-heading">Le Panoramique</h2>
         <p class="lead">Le panoramique possède un réseau de plus de 60 km de sentiers étendu sur 40 sentiers aménagés.</p>
-        <p><a class="btn btn-lg btn-primary" href="media/documents/trails_map.pdf" target="_blank">Carte des sentiers</a></p>
+        <p><a class="btn btn-lg btn-primary" href="documents/trails_map.pdf" target="_blank">Carte des sentiers</a></p>
       </div>
       <div class="col-md-5">
-        <div class="rounded shadow-lg featurette-image img-fluid mx-auto" style="background-position: 40% 12%; width: 500px; height: 500px; background-image: url(media/images/gallery/Selection_Velo_Chicout_LR-7.jpg);"></div>
+        <div class="rounded shadow-lg featurette-image img-fluid mx-auto" style="background-position: 40% 12%; width: 500px; height: 500px; background-image: url(./src/assets/media/images/gallery/Selection_Velo_Chicout_LR-7.jpg);"></div>
 
       </div>
     </div>
@@ -81,7 +81,7 @@
         <p><a class="btn btn-lg btn-primary" href="#">Tarification</a></p>
       </div>
       <div class="col-md-5 order-md-1">
-        <div class="rounded shadow-lg featurette-image img-fluid mx-auto" style="background-position: 40% 12%; width: 500px; height: 500px; background-image: url(media/images/gallery/not_free_4.jpg);"></div>
+        <div class="rounded shadow-lg featurette-image img-fluid mx-auto" style="background-position: 40% 12%; width: 500px; height: 500px; background-image: url(./src/assets/media/images/gallery/not_free_4.jpg);"></div>
 
       </div>
     </div>
@@ -121,37 +121,37 @@
     <div class="row mb-5 justify-content-center">
       <h4 class="text-center mb-5">All Mountain</h4>
       <div class="col-md-2">
-        <a href="https://www.velochicoutimi.qc.ca/"><img src="media/images/partners/logo-01.png" alt="" class="img-fluid" ></a>
+        <a href="https://www.velochicoutimi.qc.ca/"><img src="@/assets/media/images/partners/logo-01.png" alt="" class="img-fluid" ></a>
       </div>
       <div class="col-md-2">
-        <a href="http://orthomr.com/" target="_blank"><img src="media/images/partners/logo-02.png" alt="" class="img-fluid" ></a>
+        <a href="http://orthomr.com/" target="_blank"><img src="@/assets/media/images/partners/logo-02.png" alt="" class="img-fluid" ></a>
       </div>
       <div class="col-md-2">
-        <a href="#"><img src="media/images/partners/logo-03.png" alt="" class="img-fluid" ></a>
+        <a href="#"><img src="@/assets/media/images/partners/logo-03.png" alt="" class="img-fluid" ></a>
       </div>
       <div class="col-md-2">
-        <a href="http://gendronbicycles.com/" target="_blank"><img src="media/images/partners/logo-04.png" alt="" class="img-fluid" ></a>
+        <a href="http://gendronbicycles.com/" target="_blank"><img src="@/assets/media/images/partners/logo-04.png" alt="" class="img-fluid" ></a>
       </div>
       <div class="col-md-2">
-        <a href="http://www.atmosphere.ca/atmosphere/" target="_blank"><img src="media/images/partners/logo-05.png" alt="" class="img-fluid" ></a>
+        <a href="http://www.atmosphere.ca/atmosphere/" target="_blank"><img src="@/assets/media/images/partners/logo-05.png" alt="" class="img-fluid" ></a>
       </div>
       <div class="col-md-2">
-        <a href="http://www.ultravioletsports.com/" target="_blank"><img src="media/images/partners/logo-07.png" alt="" class="img-fluid" ></a>
+        <a href="http://www.ultravioletsports.com/" target="_blank"><img src="@/assets/media/images/partners/logo-07.png" alt="" class="img-fluid" ></a>
       </div>
     </div>
 
     <div class="row justify-content-center">
       <div class="col-md-2">
-        <a href="http://www.devinci.com/" target="_blank"><img src="media/images/partners/logo-08.png" alt="" class="img-fluid" ></a>
+        <a href="http://www.devinci.com/" target="_blank"><img src="@/assets/media/images/partners/logo-08.png" alt="" class="img-fluid" ></a>
       </div>
       <div class="col-md-2">
-        <a href="http://www.atmosphere.ca/atmosphere/" target="_blank"><img src="media/images/partners/logo-09.png" alt="" class="img-fluid" ></a>
+        <a href="http://www.atmosphere.ca/atmosphere/" target="_blank"><img src="@/assets/media/images/partners/logo-09.png" alt="" class="img-fluid" ></a>
       </div>
       <div class="col-md-2">
-        <a href="http://www.optiquesante.com/" target="_blank"><img src="media/images/partners/logo-10.png" alt="" class="img-fluid" ></a>
+        <a href="http://www.optiquesante.com/" target="_blank"><img src="@/assets/media/images/partners/logo-10.png" alt="" class="img-fluid" ></a>
       </div>
       <div class="col-md-2">
-        <a href="https://www.canopee.tv/" target="_blank"><img src="media/images/partners/logo-11.png" alt="" class="img-fluid" ></a>
+        <a href="https://www.canopee.tv/" target="_blank"><img src="@/assets/media/images/partners/logo-11.png" alt="" class="img-fluid" ></a>
       </div>
     </div>
 
@@ -160,16 +160,16 @@
     <div class="row justify-content-center">
       <h4 class="text-center mb-5">Grand pignon</h4>
       <div class="col-md-2">
-        <a href="http://www.elkem.com/" target="_blank"><img src="media/images/partners/logo-12.png" alt="" class="img-fluid" ></a>
+        <a href="http://www.elkem.com/" target="_blank"><img src="@/assets/media/images/partners/logo-12.png" alt="" class="img-fluid" ></a>
       </div>
       <div class="col-md-2">
-        <a href="http://piebraque.com/" target="_blank"><img src="media/images/partners/logo-13.png" alt="" class="img-fluid" ></a>
+        <a href="http://piebraque.com/" target="_blank"><img src="@/assets/media/images/partners/logo-13.png" alt="" class="img-fluid" ></a>
       </div>
       <div class="col-md-2">
-        <a href="http://www.riotintoalcan.com/" target="_blank"><img src="media/images/partners/logo-14.png" alt="" class="img-fluid" ></a>
+        <a href="http://www.riotintoalcan.com/" target="_blank"><img src="@/assets/media/images/partners/logo-14.png" alt="" class="img-fluid" ></a>
       </div>
       <div class="col-md-2">
-        <a href="https://cervad.com/fr/" target="_blank"><img src="media/images/partners/logo-15.png" alt="" class="img-fluid" ></a>
+        <a href="https://cervad.com/fr/" target="_blank"><img src="@/assets/media/images/partners/logo-15.png" alt="" class="img-fluid" ></a>
       </div>
     </div>
 
@@ -178,22 +178,22 @@
     <div class="row justify-content-center mb-5">
       <h4 class="text-center mb-5">Moyen pignon</h4>
       <div class="col-md-2">
-        <a href="https://www.velochicoutimi.qc.ca/up/part/silver/1568722837.png"><img src="media/images/partners/logo-16.png" alt=""></a>
+        <a href="https://www.velochicoutimi.qc.ca/up/part/silver/1568722837.png"><img src="@/assets/media/images/partners/logo-16.png" alt=""></a>
       </div>
       <div class="col-md-2">
-        <a href="https://www.industrielami.com/" target="_blank"><img src="media/images/partners/logo-17.png" alt=""></a>
+        <a href="https://www.industrielami.com/" target="_blank"><img src="@/assets/media/images/partners/logo-17.png" alt=""></a>
       </div>
       <div class="col-md-2">
-        <a href="http://www.lambertsportphysio.com/" target="_blank"><img src="media/images/partners/logo-18.png" alt=""></a>
+        <a href="http://www.lambertsportphysio.com/" target="_blank"><img src="@/assets/media/images/partners/logo-18.png" alt=""></a>
       </div>
       <div class="col-md-2">
-        <a href="http://www.velociteconcept.ca/" target="_blank"><img src="media/images/partners/logo-19.png" alt=""></a>
+        <a href="http://www.velociteconcept.ca/" target="_blank"><img src="@/assets/media/images/partners/logo-19.png" alt=""></a>
       </div>
       <div class="col-md-2">
-        <a href="https://www.lsimmobiliersaguenay.com/" target="_blank"><img src="media/images/partners/libre-services-immobiliers.png" alt=""></a>
+        <a href="https://www.lsimmobiliersaguenay.com/" target="_blank"><img src="@/assets/media/images/partners/libre-services-immobiliers.png" alt=""></a>
       </div>
       <div class="col-md-2">
-        <a href="https://chiropratiquejonquiere.com/" target="_blank"><img src="media/images/partners/clinique-chiro-jonq.png" alt=""></a>
+        <a href="https://chiropratiquejonquiere.com/" target="_blank"><img src="@/assets/media/images/partners/clinique-chiro-jonq.png" alt=""></a>
       </div>
     </div>
   </div>

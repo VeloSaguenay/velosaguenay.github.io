@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import HomePage from './components/HomePage.vue'
+import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
   <div class="container">
     <header class="d-flex flex-wrap justify-content-center py-3 mb-1">
-      <a href="#/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+      <RouterLink to="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
         <span class="fs-4">Vélo Saguenay</span>
-      </a>
+      </RouterLink>
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
         <li class="nav-item dropdown">
@@ -31,14 +31,14 @@ import HomePage from './components/HomePage.vue'
             <li><a class="dropdown-item" href="#">Devenir partenaire</a></li>
           </ul>
         </li>
-        <li><router-link href="/a-propos" class="nav-link link-dark">À propos</router-link></li>
-        <li><router-link href="/contact-us" class="nav-link link-dark">Contactez-nous</router-link></li>
+        <li><RouterLink to="/about" class="nav-link link-dark">À propos</RouterLink></li>
+        <li><RouterLink to="/" class="nav-link link-dark">Contactez-nous</RouterLink></li>
       </ul>
     </header>
   </div>
 
   <main>
-    <router-view></router-view>
+    <RouterView />
 
     <footer class="footer mt-auto py-3 bg-dark">
       <div class="container">
@@ -54,3 +54,7 @@ import HomePage from './components/HomePage.vue'
     </footer>
   </main>
 </template>
+
+<style>
+@import '@/assets/base.css';
+</style>

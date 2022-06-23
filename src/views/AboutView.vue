@@ -39,7 +39,7 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Jean-robert Wells</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <h6 class="card-subtitle mb-2 text-muted">Président</h6>
           </div>
         </div>
       </div>
@@ -47,7 +47,7 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Sebastien Bouchard</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <h6 class="card-subtitle mb-2 text-muted">Vice-président</h6>
           </div>
         </div>
       </div>
@@ -55,7 +55,7 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Yves Larouche</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <h6 class="card-subtitle mb-2 text-muted">Trésorier</h6>
           </div>
         </div>
       </div>
@@ -63,7 +63,7 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">François Bégin</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <h6 class="card-subtitle mb-2 text-muted">Administrateur</h6>
           </div>
         </div>
       </div>
@@ -74,7 +74,7 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Maxime Loiselle Beaudoin</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <h6 class="card-subtitle mb-2 text-muted">Administrateur</h6>
           </div>
         </div>
       </div>
@@ -82,7 +82,7 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Jean-François Garon</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <h6 class="card-subtitle mb-2 text-muted">Administrateur</h6>
           </div>
         </div>
       </div>
@@ -90,7 +90,7 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Réjean Côté</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <h6 class="card-subtitle mb-2 text-muted">Administrateur</h6>
           </div>
         </div>
       </div>
@@ -98,7 +98,7 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Vincent Desautels</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <h6 class="card-subtitle mb-2 text-muted">Administrateur</h6>
           </div>
         </div>
       </div>
@@ -109,7 +109,7 @@
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Jean-Simon Vermette</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+            <h6 class="card-subtitle mb-2 text-muted">Administrateur</h6>
           </div>
         </div>
       </div>

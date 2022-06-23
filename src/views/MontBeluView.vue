@@ -21,9 +21,9 @@
     <!-- START THE FEATURETTES -->
 
     <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <p class="lead">Le centre de vélo de Descente Mont-Bélu Bike Park est situé en plein cœur de La Baie. Plusieurs pistes de intermédiaire à expert sauront vous convaincre! Visitez notre page facebook pour plus de détails.</p>
-        <p><a href="https://www.trailforks.com/region/montbelu-bike-park" target="_blank" class="btn btn-md btn-secondary">Carte des sentiers</a> <a href="https://www.facebook.com/montbelubikepark/" target="_blank" class="btn btn-md btn-secondary">Page Facebook</a></p>
+      <div class="col-md-12">
+        <p class="lead">Le Mont Bélu offre des sentiers de type « enduro » depuis 2012. Un sentier d’ascension et 6 sentiers descendant de tous les niveaux sont disponibles. Un seul sentier a été fabriqué mécaniquement, les 5 autres sentiers ont tous été sculptés à la main par des passionnés afin d’offrir des descentes naturelles et une expérience unique. La remontée mécanique en T-Bar est accessible deux jours par semaine pendant la saison estivale. Avec en prime une vue imprenable sur l’arrondissement La Baie et le Fjord du Saguenay. Visitez notre page facebook pour plus de détails!</p>
+        <p><a href="https://www.trailforks.com/region/montbelu-bike-park" target="_blank" class="btn btn-md btn-secondary">Carte des sentiers</a> <a href="https://www.facebook.com/montbelubikepark/" target="_blank" class="btn btn-md btn-secondary">Facebook</a></p>
       </div>
     </div>
 

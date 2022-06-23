@@ -100,10 +100,6 @@
         <p>4855 Bd de la Grande-Baie-Sud, <br>La Baie, QC G7B 3P6</p>
         <p><a class="link-dark" href="https://goo.gl/maps/MnKD1uFBZFQsuGJf7" target="_blank">Vous rendre &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <h4>Contactez-nous</h4>
-        <p>Informations de contact ici</p>
-      </div><!-- /.col-lg-4 -->
     </div><!-- /.row -->
 
     <!-- /END THE FEATURETTES -->

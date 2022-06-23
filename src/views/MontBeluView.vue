@@ -20,26 +20,42 @@
   <div class="container marketing">
     <!-- START THE FEATURETTES -->
 
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Devenez partenaire</h2>
-        <p>Vélo-Saguenay est un organisme à but non lucratif qui veille au développement du
-          vélo de montagne à Saguenay. Les disciplines combinées de cross-country (XC) de
-          l'enduro et de la descente (DH) étant en pleine croissance au Québec, le moment
-          est idéal pour associer votre marque ou votre entreprise à cette industrie. Nous
-          vous invitons donc à en apprendre plus sur le visage de ce sport de plein air et de
-          ses adeptes pour mieux comprendre les bénéfices potentiels pour votre entreprise
-          d'être associée au Centre de vélo de montagne Le Panoramique!</p>
-        <p><a class="btn btn-md btn-secondary mt-3" href="documents/VeloSaguenay_PlanPartenariat2022.pdf" target="_blank">Plan de partenariat</a></p>
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <p class="lead">Le centre de vélo de Descente Mont-Bélu Bike Park est situé en plein cœur de La Baie. Plusieurs pistes de intermédiaire à expert sauront vous convaincre! Visitez notre page facebook pour plus de détails.</p>
+        <p><a href="https://www.trailforks.com/region/montbelu-bike-park" target="_blank" class="btn btn-md btn-secondary">Carte des sentiers</a> <a href="https://www.facebook.com/montbelubikepark/" target="_blank" class="btn btn-md btn-secondary">Page Facebook</a></p>
       </div>
     </div>
 
     <hr class="featurette-divider">
 
-    <div class="row">
-      <div class="col-md-12">
-        <h2>Devenez bénévole</h2>
-        <p>Pour devenir bénévole, vous pouvez participer à l'assemblée générale annuelle de Vélo Saguenay ou communiquer directement avec nous via notre <a href="https://www.facebook.com/VeloSaguenay/" target="_blank"> page facebook.</a> Vous pourrez ainsi proposer votre candidature comme membre de CA ou tous simple joindre l'équipe de bénévoles qui participent au développement continue des sentiers.</p>
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Remontée mécanique</h2>
+          <ul class="lead">
+            <li>Ouvert le mercredi de 16h à 20h et le dimanche de 10h à 16h</li>
+            <li>20$/jour, 200$ passe de saison (incluant enduro)</li>
+            <li>Billetterie sur place seulement</li>
+          </ul>
+      </div>
+      <div class="col-md-5">
+        <img src="@/assets/media/images/gallery/belu_3_500.jpg" class="rounded" alt="" width="500">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Sentier d'ascention</h2>
+        <ul class="lead">
+          <li>Accès 7 jours sur 7</li>
+          <li>10$/jour, 100$ passe de saison (excluant remontée mécanique)</li>
+        </ul>
+        <a class="btn btn-md btn-secondary" href="https://secure3.xpayrience.com/plateforme_acces_velo_chicoutimi" target="_blank">Billetterie</a>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="@/assets/media/images/gallery/belu_4_500.jpg" class="rounded" alt="" width="500">
       </div>
     </div>
 

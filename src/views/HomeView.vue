@@ -7,7 +7,7 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="@/assets/media/images/gallery/not_free_6.jpeg" class="img-fluid" alt="">
+        <img src="@/assets/media/images/gallery/pano_1.jpg" class="img-fluid" alt="" style="filter: brightness(60%);">
 
         <div class="container">
           <div class="carousel-caption text-start">
@@ -18,10 +18,10 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="@/assets/media/images/gallery/not_free_7.jpeg" class="img-fluid" alt="" style="filter: brightness(50%);">
+        <img src="@/assets/media/images/gallery/pano_2.jpg" class="img-fluid" alt="" style="filter: brightness(55%);">
 
         <div class="container">
-          <div class="carousel-caption text-end">
+          <div class="carousel-caption text-start">
             <h1>Contribuez en devenant membre</h1>
             <p>Passe de saison disponible pour le Panoramique</p>
             <p><a class="btn btn-lg btn-primary" href="https://secure3.xpayrience.com/plateforme_acces_velo_chicoutimi" target="_blank">Achète ta passe</a></p>
@@ -29,13 +29,15 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="@/assets/media/images/gallery/not_free_1.jpg" class="img-fluid" alt="" style="filter: brightness(80%);">
+        <img src="@/assets/media/images/gallery/belu_2.jpg" class="img-fluid" alt="" style="filter: brightness(85%);">
 
         <div class="container">
-          <div class="carousel-caption text-start">
+          <div class="carousel-caption">
             <h1>Mont-Bélu Bike Park</h1>
-            <p>Vive le t-bar!</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Plus d'informations</a></p>
+            <p>Maintenant ouvert !</p>
+            <p>
+              <RouterLink to="/mont-belu" class="btn btn-lg btn-primary">Plus d'informations</RouterLink>
+            </p>
           </div>
         </div>
       </div>
@@ -67,8 +69,7 @@
         <p><a class="btn btn-lg btn-primary" href="documents/trails_map.pdf" target="_blank">Carte des sentiers</a></p>
       </div>
       <div class="col-md-5">
-        <div class="rounded shadow-lg featurette-image img-fluid mx-auto" style="background-position: 40% 12%; width: 500px; height: 500px; background-image: url(./src/assets/media/images/gallery/Selection_Velo_Chicout_LR-7.jpg);"></div>
-
+        <img src="@/assets/media/images/gallery/pano_1_500.jpg" class="rounded" alt="" width="500">
       </div>
     </div>
 
@@ -77,12 +78,11 @@
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">Mont-Bélu Bike Park</h2>
-        <p class="lead">Le centre de vélo de Descente Mont-Bélu Bike Park est situé en plein cœur de La Baie. Plusieurs pistes de débutant à expert sauront vous convaincre!</p>
-        <p><a class="btn btn-lg btn-primary" href="#">Tarification</a></p>
+        <p class="lead">Le centre de vélo de Descente Mont-Bélu Bike Park est situé en plein cœur de La Baie. Plusieurs pistes de intermédiaire à expert sauront vous convaincre!</p>
+        <p><RouterLink to="/mont-belu" class="btn btn-lg btn-primary">Plus d'informations</RouterLink></p>
       </div>
       <div class="col-md-5 order-md-1">
-        <div class="rounded shadow-lg featurette-image img-fluid mx-auto" style="background-position: 40% 12%; width: 500px; height: 500px; background-image: url(./src/assets/media/images/gallery/not_free_4.jpg);"></div>
-
+        <img src="@/assets/media/images/gallery/belu_2_500.jpg" class="rounded" alt="" width="500">
       </div>
     </div>
 

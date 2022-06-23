@@ -17,22 +17,10 @@ import { RouterLink, RouterView } from 'vue-router'
             <li><a class="dropdown-item" href="https://secure3.xpayrience.com/plateforme_acces_velo_chicoutimi" target="_blank">Billetterie</a></li>
           </ul>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle link-dark" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Mont-Bélu</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="https://www.trailforks.com/region/montbelu-bike-park/" target="_blank">Carte des sentiers</a></li>
-            <li><a class="dropdown-item" href="https://secure3.xpayrience.com/plateforme_acces_velo_chicoutimi" target="_blank">Billetterie</a></li>
-          </ul>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle link-dark" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Impliquez-vous</a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Devenir bénévole</a></li>
-            <li><a class="dropdown-item" href="#">Devenir partenaire</a></li>
-          </ul>
-        </li>
+        <li><RouterLink to="/mont-belu" class="nav-link link-dark">Mont-Bélu</RouterLink></li>
+        <li><RouterLink to="/involvement" class="nav-link link-dark">Impliquez-vous</RouterLink></li>
         <li><RouterLink to="/about" class="nav-link link-dark">À propos</RouterLink></li>
-        <li><RouterLink to="/" class="nav-link link-dark">Contactez-nous</RouterLink></li>
+        <li><RouterLink to="/contact" class="nav-link link-dark">Contactez-nous</RouterLink></li>
       </ul>
     </header>
   </div>

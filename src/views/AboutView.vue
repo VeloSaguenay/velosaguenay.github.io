@@ -6,7 +6,7 @@
   <div id="myCarousel" class="carousel slide carousel-static" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="https://www.empire47.com/wp-content/uploads/2020/10/Header-5.jpg" class="img-fluid" alt="">
+        <img src="@/assets/media/images/gallery/trail_building_1.jpg" class="img-fluid" alt="" style="filter: brightness(60%);">
 
         <div class="container">
           <div class="carousel-caption text-start">
@@ -37,33 +37,68 @@
     <div class="row mb-5">
       <div class="col-md-3">
         <div class="card">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect></svg>
           <div class="card-body">
-            <h5 class="card-title">John Doe</h5>
+            <h5 class="card-title">Jean-robert Wells</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
           </div>
         </div>
       </div>
       <div class="col-md-3">
         <div class="card">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect></svg>
           <div class="card-body">
-            <h5 class="card-title">John Doe</h5>
+            <h5 class="card-title">Sebastien Bouchard</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
           </div>
         </div>
       </div>
       <div class="col-md-3">
         <div class="card">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect></svg>
           <div class="card-body">
-            <h5 class="card-title">John Doe</h5>
+            <h5 class="card-title">Yves Larouche</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
           </div>
         </div>
       </div>
       <div class="col-md-3">
         <div class="card">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect></svg>
           <div class="card-body">
-            <h5 class="card-title">John Doe</h5>
+            <h5 class="card-title">François Bégin</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Maxime Loiselle Beaudoin</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Jean-François Garon</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Réjean Côté</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Vincent Desautels</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
           </div>
         </div>
       </div>
@@ -72,33 +107,9 @@
     <div class="row">
       <div class="col-md-3">
         <div class="card">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect></svg>
           <div class="card-body">
-            <h5 class="card-title">John Doe</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect></svg>
-          <div class="card-body">
-            <h5 class="card-title">John Doe</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect></svg>
-          <div class="card-body">
-            <h5 class="card-title">John Doe</h5>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
-        <div class="card">
-          <svg class="bd-placeholder-img card-img-top" width="100%" height="180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image cap" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"></rect></svg>
-          <div class="card-body">
-            <h5 class="card-title">John Doe</h5>
+            <h5 class="card-title">Jean-Simon Vermette</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
           </div>
         </div>
       </div>
@@ -106,7 +117,7 @@
 
     <div class="row mt-5">
       <div class="col-md-12 text-center">
-        <a class="btn btn-lg btn-primary mt-3" href="#" >Devenir membre du CA</a>
+        <RouterLink to="/involvement" class="btn btn-lg btn-primary mt-3">Impliquez-vous !</RouterLink>
       </div>
     </div>
 

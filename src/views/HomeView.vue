@@ -69,7 +69,7 @@
         <p><a class="btn btn-lg btn-primary" href="documents/trails_map.pdf" target="_blank">Carte des sentiers</a></p>
       </div>
       <div class="col-md-5">
-        <img src="@/assets/media/images/gallery/pano_1_500.jpg" class="rounded" alt="" width="500">
+        <img src="@/assets/media/images/gallery/pano_1_500.jpg" class="rounded img-fluid" alt="">
       </div>
     </div>
 
@@ -82,7 +82,7 @@
         <p><RouterLink to="/mont-belu" class="btn btn-lg btn-primary">Plus d'informations</RouterLink></p>
       </div>
       <div class="col-md-5 order-md-1">
-        <img src="@/assets/media/images/gallery/belu_2_500.jpg" class="rounded" alt="" width="500">
+        <img src="@/assets/media/images/gallery/belu_2_500.jpg" class="rounded img-fluid" alt="">
       </div>
     </div>
 

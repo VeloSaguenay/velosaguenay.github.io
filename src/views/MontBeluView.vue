@@ -39,7 +39,7 @@
           </ul>
       </div>
       <div class="col-md-5">
-        <img src="@/assets/media/images/gallery/belu_3_500.jpg" class="rounded" alt="" width="500">
+        <img src="@/assets/media/images/gallery/belu_3_500.jpg" class="rounded img-fluid" alt="">
       </div>
     </div>
 
@@ -55,7 +55,7 @@
         <a class="btn btn-md btn-secondary" href="https://secure3.xpayrience.com/plateforme_acces_velo_chicoutimi" target="_blank">Billetterie</a>
       </div>
       <div class="col-md-5 order-md-1">
-        <img src="@/assets/media/images/gallery/belu_4_500.jpg" class="rounded" alt="" width="500">
+        <img src="@/assets/media/images/gallery/belu_4_500.jpg" class="rounded img-fluid" alt="">
       </div>
     </div>
 

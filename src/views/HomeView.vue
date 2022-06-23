@@ -29,7 +29,7 @@
         </div>
       </div>
       <div class="carousel-item">
-        <img src="@/assets/media/images/gallery/belu_2.jpg" class="img-fluid" alt="" style="filter: brightness(85%);">
+        <img src="@/assets/media/images/gallery/belu_2.jpg" class="img-fluid" alt="" style="filter: brightness(75%);">
 
         <div class="container">
           <div class="carousel-caption">

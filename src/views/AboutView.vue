@@ -35,7 +35,7 @@
     <hr class="mb-5 mt-5">
 
     <div class="row mb-5">
-      <div class="col-md-3">
+      <div class="col-md-4">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Jean-robert Wells</h5>
@@ -43,15 +43,15 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-4">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Sebastien Bouchard</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Vice-président</h6>
+            <h6 class="card-subtitle mb-2 text-muted">Vice-président, responsables Mont-Bélu et Fatbike</h6>
           </div>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-4">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Yves Larouche</h5>
@@ -59,34 +59,45 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3">
+    </div>
+
+    <div class="row mb-5">
+      <div class="col-md-4">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">François Bégin</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Administrateur</h6>
+            <h5 class="card-title">Vincent Desautels</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Administrateur et responsable des communications</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Maxime Beaudoin</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Administrateur et webmestre</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Jean-François Garon</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Administrateur, responsables Mont-Bélu et Fatbike</h6>
           </div>
         </div>
       </div>
     </div>
 
-    <div class="row mb-5">
-      <div class="col-md-3">
+    <div class="row">
+      <div class="col-md-4">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Maxime Loiselle Beaudoin</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Administrateur</h6>
+            <h5 class="card-title">Jean-Simon Vermette</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Administrateur et responsable du programme de partenariat </h6>
           </div>
         </div>
       </div>
-      <div class="col-md-3">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Jean-François Garon</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Administrateur</h6>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-3">
+      <div class="col-md-4">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Réjean Côté</h5>
@@ -94,21 +105,10 @@
           </div>
         </div>
       </div>
-      <div class="col-md-3">
+      <div class="col-md-4">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Vincent Desautels</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Administrateur</h6>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-3">
-        <div class="card">
-          <div class="card-body">
-            <h5 class="card-title">Jean-Simon Vermette</h5>
+            <h5 class="card-title">François Bégin</h5>
             <h6 class="card-subtitle mb-2 text-muted">Administrateur</h6>
           </div>
         </div>

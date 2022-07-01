@@ -13,7 +13,7 @@
           <div class="carousel-caption text-start">
             <h1>Le Panoramique</h1>
             <p>Des sentiers de rêves en été comme en hiver !</p>
-            <p><a class="btn btn-lg btn-primary mt-3" href="documents/trails_map.pdf" target="_blank">Cartes des sentiers</a></p>
+            <p><RouterLink to="/le-panoramique" class="btn btn-lg btn-primary">Plus d'informations</RouterLink></p>
           </div>
         </div>
       </div>
@@ -65,8 +65,8 @@
     <div class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">Le Panoramique</h2>
-        <p class="lead">Le panoramique possède un réseau de plus de 60 km de sentiers étendu sur 40 sentiers aménagés.</p>
-        <p><a class="btn btn-lg btn-primary" href="documents/trails_map.pdf" target="_blank">Carte des sentiers</a></p>
+        <p class="lead">Le panoramique possède un réseau de plus de 41 km de sentiers étendu sur 40 sentiers aménagés.</p>
+        <p><a href="documents/trails_map.pdf" class="btn btn-lg btn-primary" target="_blank">Carte des sentiers</a></p>
       </div>
       <div class="col-md-5">
         <img src="@/assets/media/images/gallery/pano_1_500.jpg" class="rounded img-fluid" alt="">
@@ -92,8 +92,8 @@
     <div class="row">
       <div class="col-lg-4">
         <h4>Le Panoramique</h4>
-        <p>140 Chem. de la Réserve, <br>Chicoutimi, QC G7J 0B4</p>
-        <p><a class="link-dark" href="https://goo.gl/maps/RmaCThz1hyCZac6n9" target="_blank">Vous rendre &raquo;</a></p>
+        <p>1412 Chemin de la Réserve, <br>Chicoutimi, QC G7J 0K2</p>
+        <p><a class="link-dark" href="https://goo.gl/maps/ywCh5kfVbEmQ9UY17" target="_blank">Vous rendre &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
         <h4>Mont-Bélu Bike Park</h4>

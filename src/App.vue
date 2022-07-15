@@ -39,11 +39,9 @@ import { RouterLink, RouterView } from 'vue-router'
     <footer class="footer mt-auto py-3 bg-dark">
       <div class="container">
         <div class="row">
-          <div class="col-md-10">
+          <div class="col-md-12">
             <span class="text-muted">&copy; 2022 Vélo Saguenay</span>
-          </div>
-          <div class="col-md-1 text-right">
-            <a href="https://www.facebook.com/VeloSaguenay/" target="_blank"><i class="bi bi-facebook" style="color:#6C757F"></i></a>
+            <a class="float-end d-block" href="https://www.facebook.com/VeloSaguenay/" target="_blank"><i class="bi bi-facebook" style="color:#6C757F"></i></a>
           </div>
         </div>
       </div>

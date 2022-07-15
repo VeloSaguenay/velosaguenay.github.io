@@ -20,5 +20,12 @@
   <div class="container marketing">
     <!-- START THE FEATURETTES -->
 
+    <div class="row">
+      <div class="col-md-12 mb-5">
+        <h2>Vous avez des questions?</h2>
+        <p>Vélo Saguenay ce fera un plaisir de vous répondre. Le meilleur moyen de communiquer avec nous est d'utiliser la <a href="https://www.facebook.com/VeloSaguenay" target="_blank">page facebook</a> de Vélo Saguenay.</p>
+      </div>
+    </div>
+
   </div>
 </template>

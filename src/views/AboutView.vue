@@ -35,7 +35,7 @@
     <hr class="mb-5 mt-5">
 
     <div class="row mb-5">
-      <div class="col-md-4">
+      <div class="col-md-4 mb-4">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Jean-robert Wells</h5>
@@ -43,7 +43,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 mb-4">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Sebastien Bouchard</h5>
@@ -51,7 +51,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 mb-4">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Yves Larouche</h5>
@@ -59,10 +59,7 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="row mb-5">
-      <div class="col-md-4">
+      <div class="col-md-4 mb-4">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Vincent Desautels</h5>
@@ -70,7 +67,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 mb-4">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Maxime Beaudoin</h5>
@@ -78,7 +75,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 mb-4">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Jean-François Garon</h5>
@@ -86,10 +83,7 @@
           </div>
         </div>
       </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-4">
+      <div class="col-md-4 mb-4">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Jean-Simon Vermette</h5>
@@ -97,7 +91,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 mb-4">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">Réjean Côté</h5>
@@ -105,7 +99,7 @@
           </div>
         </div>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 mb-4">
         <div class="card">
           <div class="card-body">
             <h5 class="card-title">François Bégin</h5>

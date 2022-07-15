@@ -6,7 +6,7 @@
   <div id="myCarousel" class="carousel slide carousel-static" data-bs-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="@/assets/media/images/gallery/trail_building_1.jpg" class="img-fluid" alt="" style="filter: brightness(60%);">
+        <img src="@/assets/media/images/gallery/pano_4.jpg" class="img-fluid" alt="" style="filter: brightness(60%);">
 
         <div class="container">
           <div class="carousel-caption text-start">

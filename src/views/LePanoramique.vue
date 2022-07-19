@@ -43,7 +43,7 @@
         </ul>
       </div>
       <div class="col-md-5">
-        <img src="@/assets/media/images/gallery/pano_5_500.jpeg" class="rounded img-fluid" alt="">
+        <img src="@/assets/media/images/gallery/pano_5_500.jpg" class="rounded img-fluid" alt="">
       </div>
     </div>
 

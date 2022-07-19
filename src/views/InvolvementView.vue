@@ -39,7 +39,7 @@
     <div class="row">
       <div class="col-md-12">
         <h2>Devenez bénévole</h2>
-        <p>Pour devenir bénévole, vous pouvez participer à l'assemblée générale annuelle de Vélo Saguenay ou communiquer directement avec nous via notre <a href="https://www.facebook.com/VeloSaguenay/" target="_blank"> page facebook.</a> Vous pourrez ainsi proposer votre candidature comme membre de CA ou tous simple joindre l'équipe de bénévoles qui participent au développement continue des sentiers.</p>
+        <p>Pour devenir bénévole, vous pouvez participer à l'assemblée générale annuelle de Vélo Saguenay ou communiquer directement avec nous via notre <a href="https://www.facebook.com/VeloSaguenay/" target="_blank"> page facebook.</a> Vous pourrez ainsi proposer votre candidature comme membre de CA ou tous simplement joindre l'équipe de bénévoles qui participent au développement continue des sentiers.</p>
       </div>
     </div>
 

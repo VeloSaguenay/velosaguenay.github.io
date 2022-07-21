@@ -7,6 +7,16 @@
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
+        <img src="@/assets/media/images/gallery/pano_1.jpg" class="img-fluid" alt="" style="filter: brightness(60%);">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Le Panoramique</h1>
+            <p>Des sentiers de rêves en été comme en hiver !</p>
+            <p><RouterLink to="/le-panoramique" class="btn btn-lg btn-primary">Plus d'informations</RouterLink></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
         <img src="@/assets/media/images/gallery/pano_2.jpg" class="img-fluid" alt="" style="filter: brightness(55%);">
 
         <div class="container">
@@ -14,16 +24,6 @@
             <h1>Contribuez en devenant membre</h1>
             <p>Passe de saison disponible pour le Panoramique</p>
             <p><a class="btn btn-lg btn-primary" href="https://secure3.xpayrience.com/plateforme_acces_velo_chicoutimi" target="_blank">Billetterie en ligne</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="@/assets/media/images/gallery/pano_1.jpg" class="img-fluid" alt="" style="filter: brightness(60%);">
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <h1>Le Panoramique</h1>
-            <p>Des sentiers de rêves en été comme en hiver !</p>
-            <p><RouterLink to="/le-panoramique" class="btn btn-lg btn-primary">Plus d'informations</RouterLink></p>
           </div>
         </div>
       </div>

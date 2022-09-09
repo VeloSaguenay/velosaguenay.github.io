@@ -115,7 +115,7 @@
     <div class="row justify-content-center">
       <h4 class="text-center mb-5">Sentier</h4>
       <div class="col-md-2 mb-2 ms-5">
-        <a href="https://www.uqac.ca/"><img src="@/assets/media/images/partners/logo_uqac.png" alt="" class="img-fluid" ></a>
+        <a href="https://www.uqac.ca/" target="_blank"><img src="@/assets/media/images/partners/logo_uqac.png" alt="" class="img-fluid" ></a>
       </div>
     </div>
 

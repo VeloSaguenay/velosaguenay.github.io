@@ -112,7 +112,16 @@
 
     <hr class="mb-5 mt-5">
 
-    <div class="row mb-3 justify-content-center">
+    <div class="row justify-content-center">
+      <h4 class="text-center mb-5">Sentier</h4>
+      <div class="col-md-2 mb-2 ms-5">
+        <a href="https://www.uqac.ca/"><img src="@/assets/media/images/partners/logo_uqac.png" alt="" class="img-fluid" ></a>
+      </div>
+    </div>
+
+    <hr class="mb-5 mt-5">
+
+    <div class="row justify-content-center">
       <h4 class="text-center mb-5">All Mountain</h4>
       <div class="col-md-2 mb-2">
         <a href="https://www.velochicoutimi.qc.ca/"><img src="@/assets/media/images/partners/logo-01.png" alt="" class="img-fluid" ></a>

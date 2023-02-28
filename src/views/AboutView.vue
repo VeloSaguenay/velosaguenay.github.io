@@ -38,16 +38,16 @@
       <div class="col-md-4 mb-4">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Jean-robert Wells</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Président</h6>
+            <h5 class="card-title">Sébastien Bouchard</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Président, responsable Mont-Bélu</h6>
           </div>
         </div>
       </div>
       <div class="col-md-4 mb-4">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Sebastien Bouchard</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Vice-président, responsables Mont-Bélu et Fatbike</h6>
+            <h5 class="card-title">Jean-François Garon,</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Vice-président, responsable Mont-Bélu</h6>
           </div>
         </div>
       </div>
@@ -78,8 +78,8 @@
       <div class="col-md-4 mb-4">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Jean-François Garon</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Administrateur, responsables Mont-Bélu et Fatbike</h6>
+            <h5 class="card-title">Jean-robert Wells</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Administrateur</h6>
           </div>
         </div>
       </div>
@@ -94,6 +94,14 @@
       <div class="col-md-4 mb-4">
         <div class="card">
           <div class="card-body">
+            <h5 class="card-title">Martial Laberge</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Administrateur, responsable Fatbike La Baie</h6>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <div class="card-body">
             <h5 class="card-title">Réjean Côté</h5>
             <h6 class="card-subtitle mb-2 text-muted">Administrateur</h6>
           </div>
@@ -102,7 +110,7 @@
       <div class="col-md-4 mb-4">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">François Bégin</h5>
+            <h5 class="card-title">Pascal Bejjani</h5>
             <h6 class="card-subtitle mb-2 text-muted">Administrateur</h6>
           </div>
         </div>

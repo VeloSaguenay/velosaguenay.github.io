@@ -22,8 +22,11 @@
         <div class="container">
           <div class="carousel-caption text-start">
             <h1>Contribuez en devenant membre</h1>
-            <p>Passe de saison disponible pour le Panoramique</p>
-            <p><a class="btn btn-lg btn-primary" href="https://secure3.xpayrience.com/plateforme_acces_velo_chicoutimi" target="_blank">Billetterie en ligne</a></p>
+            <p>Passe de saison disponible</p>
+            <p>
+              <a class="btn btn-lg btn-primary" href="https://app.endorphine.ca/c/lepanoramique" target="_blank">Billetterie Le Panormarique</a>
+              <a class="btn btn-lg btn-primary" href="https://app.endorphine.ca/c/Mont-Belu" target="_blank">Billetterie Mont-Bélu</a>
+            </p>
           </div>
         </div>
       </div>

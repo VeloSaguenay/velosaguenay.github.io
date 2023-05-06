@@ -25,7 +25,7 @@
         <p class="lead">Le Mont Bélu offre des sentiers de type « enduro » depuis 2012. Un sentier d’ascension et 6 sentiers descendant de tous les niveaux sont disponibles. Un seul sentier a été fabriqué mécaniquement, les 5 autres sentiers ont tous été sculptés à la main par des passionnés afin d’offrir des descentes naturelles et une expérience unique. La remontée mécanique en T-Bar est accessible deux jours par semaine pendant la saison estivale. Avec en prime une vue imprenable sur l’arrondissement La Baie et le Fjord du Saguenay. Visitez notre <a href="https://www.facebook.com/montbelubikepark/" target="_blank">page facebook</a> pour plus de détails!</p>
         <p>
           <a class="btn btn-md btn-secondary m-2" href="https://www.trailforks.com/region/montbelu-bike-park" target="_blank">Carte des sentiers (Trailfork)</a>
-          <a class="btn btn-md btn-secondary m-2" href="https://secure3.xpayrience.com/plateforme_acces_velo_chicoutimi" target="_blank">Billetterie Sentier d'ascention</a></p>
+          <a class="btn btn-md btn-secondary m-2" href="https://app.endorphine.ca/c/Mont-Belu" target="_blank">Billetterie Sentier d'ascention</a></p>
       </div>
       <div class="col-md-5">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/jCSda8AfpVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -57,7 +57,7 @@
           <li>Accès 7 jours sur 7</li>
           <li>10$/jour, 100$ passe de saison (excluant remontée mécanique)</li>
         </ul>
-        <p><a class="btn btn-md btn-secondary" href="https://secure3.xpayrience.com/plateforme_acces_velo_chicoutimi" target="_blank">Billetterie</a></p>
+        <p><a class="btn btn-md btn-secondary" href="https://app.endorphine.ca/c/Mont-Belu" target="_blank">Billetterie</a></p>
       </div>
       <div class="col-md-5">
         <img src="@/assets/media/images/gallery/belu_4_500.jpg" class="rounded img-fluid" alt="">

@@ -24,7 +24,7 @@
       <div class="col-md-12">
         <p class="lead">Le panoramique possède un réseau de plus de 41 km de sentiers étendu sur 40 sentiers aménagés.</p>
         <p>
-          <a href="documents/trails_map.pdf" target="_blank" class="btn btn-md btn-secondary">Carte des sentiers</a> <a href="https://www.trailforks.com/region/centre-de-velo-de-montagne-le-panoramique/" target="_blank" class="btn btn-md btn-secondary">Trailfork</a> <a class="btn btn-md btn-secondary" href="https://secure3.xpayrience.com/plateforme_acces_velo_chicoutimi" target="_blank">Billetterie</a></p>
+          <a href="documents/trails_map.pdf" target="_blank" class="btn btn-md btn-secondary">Carte des sentiers</a> <a href="https://www.trailforks.com/region/centre-de-velo-de-montagne-le-panoramique/" target="_blank" class="btn btn-md btn-secondary">Trailfork</a> <a class="btn btn-md btn-secondary" href="https://app.endorphine.ca/c/lepanoramique" target="_blank">Billetterie</a></p>
       </div>
     </div>
 

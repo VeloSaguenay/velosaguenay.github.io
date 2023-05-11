@@ -35,7 +35,6 @@
         <div class="container">
           <div class="carousel-caption">
             <h1>Mont-Bélu Bike Park</h1>
-            <p>Maintenant ouvert !</p>
             <p>
               <RouterLink to="/mont-belu" class="btn btn-lg btn-primary">Plus d'informations</RouterLink>
             </p>

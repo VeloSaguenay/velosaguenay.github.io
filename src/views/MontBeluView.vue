@@ -42,7 +42,9 @@
         <h2 class="featurette-heading">Remontée mécanique</h2>
           <ul class="lead">
             <li>Ouvert le mercredi de 16h à 20h et le dimanche de 10h à 16h</li>
-            <li>20$/jour, 200$ passe de saison (incluant enduro)</li>
+            <li>25$/jour, 220$ passe de saison (132$ membres Pano)</li>
+            <li>Étudiants 13-21 ans 50% de rabais</li>
+            <li>àgratuit moins de 13 ans</li>
             <li>Billetterie sur place seulement</li>
           </ul>
       </div>
@@ -55,7 +57,6 @@
         <h2 class="featurette-heading">Sentier d'ascention</h2>
         <ul class="lead">
           <li>Accès 7 jours sur 7</li>
-          <li>10$/jour, 100$ passe de saison (excluant remontée mécanique)</li>
         </ul>
         <p><a class="btn btn-md btn-secondary" href="https://app.endorphine.ca/c/Mont-Belu" target="_blank">Billetterie</a></p>
       </div>

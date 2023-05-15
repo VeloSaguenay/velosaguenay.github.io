@@ -43,8 +43,8 @@
           <ul class="lead">
             <li>Ouvert le mercredi de 16h à 20h et le dimanche de 10h à 16h</li>
             <li>25$/jour, 220$ passe de saison (132$ membres Pano)</li>
-            <li>Étudiants 13-21 ans 50% de rabais</li>
-            <li>àgratuit moins de 13 ans</li>
+            <li>Étudiants 13-21 ans -> 50% de rabais</li>
+            <li>Gratuit moins de 13 ans</li>
             <li>Billetterie sur place seulement</li>
           </ul>
       </div>

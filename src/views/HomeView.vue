@@ -172,6 +172,12 @@
       </div>
     </div>
 
+    <div class="row justify-content-center">
+      <div class="col-md-2 mb-2">
+        <a href="http://www.distributionddm.ca/" target="_blank"><img src="@/assets/media/images/partners/ddm.png" alt="" class="img-fluid" ></a>
+      </div>
+    </div>
+
     <hr class="mb-5 mt-5">
 
     <div class="row justify-content-center">
@@ -210,7 +216,7 @@
         <a href="https://www.facebook.com/jcsport2017" target="_blank"><img src="@/assets/media/images/partners/logo-jc-sports.png" alt="" class="img-fluid" ></a>
       </div>
       <div class="col-md-2 mb-2">
-        <a href="https://www.n2suspension.com/" target="_blank"><img src="@/assets/media/images/partners/logo-n2suspension.png" alt="" class="img-fluid" ></a>
+        <a href="https://www.sportcycleexpert.ca/" target="_blank"><img src="@/assets/media/images/partners/sport_cycle.jpg" alt="" class="img-fluid" ></a>
       </div>
       <div class="col-md-2 mb-2">
         <a href="http://www.lambertsportphysio.com/" target="_blank"><img src="@/assets/media/images/partners/physio_lambert.png" alt="" class="img-fluid" ></a>

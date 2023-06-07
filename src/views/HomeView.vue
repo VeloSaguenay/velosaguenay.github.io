@@ -198,7 +198,7 @@
     <div class="row justify-content-center mb-3">
       <h4 class="text-center mb-5">Moyen pignon</h4>
       <div class="col-md-2 mb-2">
-        <a href="https://www.cervopolygaz.ca/" target="_blank"><img src="@/assets/media/images/partners/pgs.png" alt="" class="img-fluid" ></a>
+        <a href="https://www.evasion-sport.com/" target="_blank"><img src="@/assets/media/images/partners/evasion-sport.jpg" alt="" class="img-fluid" ></a>
       </div>
       <div class="col-md-2 mb-2">
         <a href="http://www.velociteconcept.ca/" target="_blank"><img src="@/assets/media/images/partners/logo-19.png" alt="" class="img-fluid" ></a>
@@ -212,6 +212,9 @@
     </div>
 
     <div class="row mb-3 justify-content-center">
+      <div class="col-md-2 mb-2">
+        <a href="https://www.cervopolygaz.ca/" target="_blank"><img src="@/assets/media/images/partners/pgs.png" alt="" class="img-fluid" ></a>
+      </div>
       <div class="col-md-2 mb-2">
         <a href="https://www.facebook.com/jcsport2017" target="_blank"><img src="@/assets/media/images/partners/logo-jc-sports.png" alt="" class="img-fluid" ></a>
       </div>

@@ -45,8 +45,8 @@
             <li>25$/jour, 220$ passe de saison (132$ membres Pano)</li>
             <li>Étudiants 13-21 ans -> 50% de rabais</li>
             <li>Gratuit moins de 13 ans</li>
-            <li>Billetterie sur place seulement</li>
           </ul>
+        <p><a class="btn btn-md btn-secondary" href="https://app.endorphine.ca/c/Mont-Belu" target="_blank">Billetterie</a></p>
       </div>
     </div>
 

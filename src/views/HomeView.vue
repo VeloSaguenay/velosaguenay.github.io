@@ -34,7 +34,7 @@
         <img src="@/assets/media/images/gallery/belu_2.jpg" class="img-fluid" alt="" style="filter: brightness(75%);">
         <div class="container">
           <div class="carousel-caption">
-            <h1>Mont-Bélu Bike Park</h1>
+            <h1>Mont-Bélu Véloparc</h1>
             <p>
               <RouterLink to="/mont-belu" class="btn btn-lg btn-primary">Plus d'informations</RouterLink>
             </p>
@@ -77,8 +77,8 @@
 
     <div class="row featurette">
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Mont-Bélu Bike Park</h2>
-        <p class="lead">Le centre de vélo de Descente Mont-Bélu Bike Park est situé en plein cœur de La Baie. Plusieurs pistes de intermédiaire à expert sauront vous convaincre!</p>
+        <h2 class="featurette-heading">Mont-Bélu Véloparc</h2>
+        <p class="lead">Le centre de vélo de Descente Mont-Bélu Véloparc est situé en plein cœur de La Baie. Plusieurs pistes de intermédiaire à expert sauront vous convaincre!</p>
         <p><RouterLink to="/mont-belu" class="btn btn-lg btn-primary">Plus d'informations</RouterLink></p>
       </div>
       <div class="col-md-5 order-md-1">
@@ -96,7 +96,7 @@
         <p><a class="link-dark" href="https://goo.gl/maps/ywCh5kfVbEmQ9UY17" target="_blank">Vous rendre &raquo;</a></p>
       </div><!-- /.col-lg-4 -->
       <div class="col-lg-4">
-        <h4>Mont-Bélu Bike Park</h4>
+        <h4>Mont-Bélu Véloparc</h4>
         <p>4855 Bd de la Grande-Baie-Sud, <br>La Baie, QC G7B 3P6</p>
         <p><a class="link-dark" href="https://goo.gl/maps/MnKD1uFBZFQsuGJf7" target="_blank">Vous rendre &raquo;</a></p>
       </div><!-- /.col-lg-4 -->

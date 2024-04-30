@@ -78,7 +78,7 @@
       <div class="col-md-4 mb-4">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Jean-robert Wells</h5>
+            <h5 class="card-title">Pascal Tremblay</h5>
             <h6 class="card-subtitle mb-2 text-muted">Administrateur</h6>
           </div>
         </div>
@@ -118,8 +118,8 @@
       <div class="col-md-4 mb-4">
         <div class="card">
           <div class="card-body">
-            <h5 class="card-title">Maude Gauthier</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Administratrice</h6>
+            <h5 class="card-title">Charles Sexton</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Administrateur</h6>
           </div>
         </div>
       </div>

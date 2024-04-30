@@ -131,11 +131,17 @@
 
     <div class="row justify-content-center">
       <h4 class="text-center mb-5">Sentier</h4>
+      <div class="col-md-2 mb-2">
+        <a href="http://gendronbicycles.com/" target="_blank"><img src="@/assets/media/images/partners/logo-04.png" alt="" class="img-fluid" ></a>
+      </div>
       <div class="col-md-2 mb-2 ms-5">
         <a href="https://enssag.com/" target="_blank"><img src="@/assets/media/images/partners/ensag.png" alt="" class="img-fluid" ></a>
       </div>
       <div class="col-md-2 mb-2 ms-5">
-        <a href="https://www.uqac.ca/" target="_blank"><img src="@/assets/media/images/partners/logo_uqac.png" alt="" class="img-fluid" ></a>
+        <a href="https://www.uqac.ca/" target="_blank"><img src="@/assets/media/images/partners/logo_uqac.png" alt="" class="img-fluid"></a>
+      </div>
+      <div class="col-md-2 mb-2 ms-5">
+        <a href="https://electricavenuesaguenay.ca/" target="_blank"><img src="@/assets/media/images/partners/electric-avenue.avif" alt="" class="img-fluid"  style="max-height: 110px"></a>
       </div>
     </div>
 
@@ -144,16 +150,19 @@
     <div class="row justify-content-center">
       <h4 class="text-center mb-5">All Mountain</h4>
       <div class="col-md-2 mb-2">
-        <a href="https://www.velochicoutimi.qc.ca/"><img src="@/assets/media/images/partners/logo-01.png" alt="" class="img-fluid" ></a>
+        <a href="https://www.industrielami.com/" target="_blank"><img src="@/assets/media/images/partners/group_ami.png" alt="" class="img-fluid" ></a>
       </div>
       <div class="col-md-2 mb-2">
         <a href="#"><img src="@/assets/media/images/partners/logo-03.png" alt="" class="img-fluid" ></a>
       </div>
       <div class="col-md-2 mb-2">
-        <a href="http://gendronbicycles.com/" target="_blank"><img src="@/assets/media/images/partners/logo-04.png" alt="" class="img-fluid" ></a>
+        <a href="https://www.sportsexperts.ca/" target="_blank"><img src="@/assets/media/images/partners/sports_experts.png" alt="" class="img-fluid" ></a>
       </div>
       <div class="col-md-2 mb-2">
-        <a href="https://www.sportsexperts.ca/" target="_blank"><img src="@/assets/media/images/partners/sports_experts.png" alt="" class="img-fluid" ></a>
+        <a href="https://www.dresto.com/" target="_blank"><img src="@/assets/media/images/partners/groupe-d-resto.svg" alt="" class="img-fluid" style="max-height: 70px"></a>
+      </div>
+      <div class="col-md-2 mb-2">
+        <a href="https://www.scepterinc.com/" target="_blank"><img src="@/assets/media/images/partners/scepter.png" alt="" class="img-fluid" style="max-height: 70px"></a>
       </div>
     </div>
 
@@ -161,20 +170,20 @@
       <div class="col-md-2 mb-2">
         <a href="http://www.ultravioletsports.com/" target="_blank"><img src="@/assets/media/images/partners/logo-07.png" alt="" class="img-fluid" ></a>
       </div>
-      <div class="col-md-2 mb-2">
+      <div class="col-md-2 mb-2 visually-hidden">
         <a href="http://www.devinci.com/" target="_blank"><img src="@/assets/media/images/partners/logo-08.png" alt="" class="img-fluid" ></a>
       </div>
       <div class="col-md-2 mb-2">
-        <a href="http://www.optiquesante.com/" target="_blank"><img src="@/assets/media/images/partners/logo-10.png" alt="" class="img-fluid" ></a>
-      </div>
-      <div class="col-md-2 mb-2">
-        <a href="https://www.axcio.com/" target="_blank"><img src="@/assets/media/images/partners/logo_axcio.jpg" alt="" class="img-fluid" ></a>
-      </div>
-    </div>
-
-    <div class="row justify-content-center">
-      <div class="col-md-2 mb-2">
         <a href="http://www.distributionddm.ca/" target="_blank"><img src="@/assets/media/images/partners/ddm.png" alt="" class="img-fluid" ></a>
+      </div>
+      <div class="col-md-2 mb-2">
+        <a href="http://piebraque.com/" target="_blank"><img src="@/assets/media/images/partners/logo-13.png" alt="" class="img-fluid" ></a>
+      </div>
+      <div class="col-md-2 mb-2">
+        <a href="https://spmt.ca" target="_blank"><img src="@/assets/media/images/partners/service-petroliers-mt.png" alt="" class="img-fluid" style="max-height: 70px"></a>
+      </div>
+      <div class="col-md-2 mb-2">
+        Simard Tremblay CPA
       </div>
     </div>
 
@@ -182,14 +191,11 @@
 
     <div class="row justify-content-center">
       <h4 class="text-center mb-5">Grand pignon</h4>
-      <div class="col-md-2 mb-2">
+      <div class="col-md-1 mb-2">
+        <a href="https://www.gravylet.ca/" target="_blank"><img src="@/assets/media/images/partners/gravylet.png" alt="" class="img-fluid"></a>
+      </div>
+      <div class="col-md-2 mb-2 visually-hidden">
         <a href="http://orthomr.com/" target="_blank"><img src="@/assets/media/images/partners/logo-02.png" alt="" class="img-fluid" ></a>
-      </div>
-      <div class="col-md-2 mb-2">
-        <a href="https://www.industrielami.com/" target="_blank"><img src="@/assets/media/images/partners/group_ami.png" alt="" class="img-fluid" ></a>
-      </div>
-      <div class="col-md-2 mb-2">
-        <a href="http://piebraque.com/" target="_blank"><img src="@/assets/media/images/partners/logo-13.png" alt="" class="img-fluid" ></a>
       </div>
     </div>
 
@@ -198,25 +204,21 @@
     <div class="row justify-content-center mb-3">
       <h4 class="text-center mb-5">Moyen pignon</h4>
       <div class="col-md-2 mb-2">
-        <a href="https://www.evasion-sport.com/" target="_blank"><img src="@/assets/media/images/partners/evasion-sport.jpg" alt="" class="img-fluid" ></a>
+        <a href="https://cliniqueremixsante.com/" target="_blank"><img src="@/assets/media/images/partners/remix-sante.png" alt="" class="img-fluid" style="max-height: 70px"></a>
+      </div>
+      <div class="col-md-2 mb-2">
+        <a href="http://www.optiquesante.com/" target="_blank"><img src="@/assets/media/images/partners/logo-10.png" alt="" class="img-fluid" ></a>
+      </div>
+      <div class="col-md-2 mb-2">
+        <a href="#"><img src="@/assets/media/images/partners/logo-01.png" alt="" class="img-fluid" ></a>
       </div>
       <div class="col-md-2 mb-2">
         <a href="http://www.velociteconcept.ca/" target="_blank"><img src="@/assets/media/images/partners/logo-19.png" alt="" class="img-fluid" ></a>
       </div>
-      <div class="col-md-2 mb-2">
-        <a href="https://www.lsimmobiliersaguenay.com/" target="_blank"><img src="@/assets/media/images/partners/libre-services-immobiliers.png" alt="" class="img-fluid" ></a>
-      </div>
-      <div class="col-md-2 mb-2">
-        <a href="https://chiropratiquejonquiere.com/" target="_blank"><img src="@/assets/media/images/partners/clinique-chiro-jonq.png" alt="" class="img-fluid" ></a>
-      </div>
     </div>
-
     <div class="row mb-3 justify-content-center">
       <div class="col-md-2 mb-2">
         <a href="https://www.cervopolygaz.ca/" target="_blank"><img src="@/assets/media/images/partners/pgs.png" alt="" class="img-fluid" ></a>
-      </div>
-      <div class="col-md-2 mb-2">
-        <a href="https://www.facebook.com/jcsport2017" target="_blank"><img src="@/assets/media/images/partners/logo-jc-sports.png" alt="" class="img-fluid" ></a>
       </div>
       <div class="col-md-2 mb-2">
         <a href="https://www.sportcycleexpert.ca/" target="_blank"><img src="@/assets/media/images/partners/sport_cycle.jpg" alt="" class="img-fluid" ></a>
@@ -225,5 +227,22 @@
         <a href="http://www.lambertsportphysio.com/" target="_blank"><img src="@/assets/media/images/partners/physio_lambert.png" alt="" class="img-fluid" ></a>
       </div>
     </div>
+
+    <div class="row mb-3 justify-content-center">
+      <div class="col-md-2 mb-2 visually-hidden">
+        <a href="https://www.facebook.com/jcsport2017" target="_blank"><img src="@/assets/media/images/partners/logo-jc-sports.png" alt="" class="img-fluid" ></a>
+      </div>
+      <div class="col-md-2 mb-2 visually-hidden">
+        <a href="https://www.lsimmobiliersaguenay.com/" target="_blank"><img src="@/assets/media/images/partners/libre-services-immobiliers.png" alt="" class="img-fluid" ></a>
+      </div>
+      <div class="col-md-2 mb-2 visually-hidden">
+        <a href="https://chiropratiquejonquiere.com/" target="_blank"><img src="@/assets/media/images/partners/clinique-chiro-jonq.png" alt="" class="img-fluid" ></a>
+      </div>
+      <div class="col-md-2 mb-2 visually-hidden">
+        <a href="https://www.evasion-sport.com/" target="_blank"><img src="@/assets/media/images/partners/evasion-sport.jpg" alt="" class="img-fluid" ></a>
+      </div>
+    </div>
   </div>
 </template>
+<script setup lang="ts">
+</script>

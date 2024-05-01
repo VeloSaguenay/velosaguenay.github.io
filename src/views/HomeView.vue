@@ -158,12 +158,6 @@
       <div class="col-md-2 mb-2">
         <a href="https://www.sportsexperts.ca/" target="_blank"><img src="@/assets/media/images/partners/sports_experts.png" alt="" class="img-fluid" ></a>
       </div>
-      <div class="col-md-2 mb-2">
-        <a href="https://www.dresto.com/" target="_blank"><img src="@/assets/media/images/partners/groupe-d-resto.svg" alt="" class="img-fluid" style="max-height: 70px"></a>
-      </div>
-      <div class="col-md-2 mb-2">
-        <a href="https://www.scepterinc.com/" target="_blank"><img src="@/assets/media/images/partners/scepter.png" alt="" class="img-fluid" style="max-height: 70px"></a>
-      </div>
     </div>
 
     <div class="row justify-content-center">
@@ -179,13 +173,23 @@
       <div class="col-md-2 mb-2">
         <a href="http://piebraque.com/" target="_blank"><img src="@/assets/media/images/partners/logo-13.png" alt="" class="img-fluid" ></a>
       </div>
+    </div>
+
+    <div class="row justify-content-center">
       <div class="col-md-2 mb-2">
         <a href="https://spmt.ca" target="_blank"><img src="@/assets/media/images/partners/service-petroliers-mt.png" alt="" class="img-fluid" style="max-height: 70px"></a>
       </div>
       <div class="col-md-2 mb-2">
-        Simard Tremblay CPA
+        <a href="#" target="_blank"><img src="@/assets/media/images/partners/simard-tremblay-cpa.jpeg" alt="" class="img-fluid" style="max-height: 70px"></a>
+      </div>
+      <div class="col-md-2 mb-2">
+        <a href="https://www.dresto.com/" target="_blank"><img src="@/assets/media/images/partners/groupe-d-resto.svg" alt="" class="img-fluid" style="max-height: 70px"></a>
+      </div>
+      <div class="col-md-2 mb-2">
+        <a href="https://www.scepterinc.com/" target="_blank"><img src="@/assets/media/images/partners/scepter.png" alt="" class="img-fluid" style="max-height: 70px"></a>
       </div>
     </div>
+
 
     <hr class="mb-5 mt-5">
 

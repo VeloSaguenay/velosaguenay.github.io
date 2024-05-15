@@ -35,11 +35,12 @@
         <h2 class="featurette-heading">Récupération des bracelets</h2>
         <p class="lead">Il est maintenant possible de récupérer vos bracelets chez les détaillants suivants :</p>
         <ul class="lead">
-          <li>Sport Cycle Expert</li>
-          <li>Ultraviolet</li>
           <li>Gendron bicycles</li>
-          <li>VO2</li>
-          <li>Sports Experts / Atmosphère</li>
+          <li>Ultraviolet</li>
+          <li>Sport Cycle Expert</li>
+          <li>Vélo Cité</li>
+          <li>Électrique Avenue</li>
+          <li>Sports Experts Chicoutimi</li>
         </ul>
       </div>
       <div class="col-md-5">
@@ -66,3 +67,5 @@
 
   </div>
 </template>
+<script setup lang="ts">
+</script>

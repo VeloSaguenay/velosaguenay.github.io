@@ -141,7 +141,7 @@
         <a href="https://www.uqac.ca/" target="_blank"><img src="@/assets/media/images/partners/logo_uqac.png" alt="" class="img-fluid"></a>
       </div>
       <div class="col-md-2 mb-2 ms-5">
-        <a href="https://electricavenuesaguenay.ca/" target="_blank"><img src="@/assets/media/images/partners/electric-avenue.avif" alt="" class="img-fluid"  style="max-height: 110px"></a>
+        <a href="https://electricavenuesaguenay.ca/" target="_blank"><img src="@/assets/media/images/partners/electric_avenue.png" alt="" class="img-fluid"></a>
       </div>
     </div>
 
@@ -196,6 +196,12 @@
     <div class="row justify-content-center">
       <h4 class="text-center mb-5">Grand pignon</h4>
       <div class="col-md-1 mb-2">
+        <a href="#" target="_blank"><img src="@/assets/media/images/partners/club_uv.jpg" alt="" class="img-fluid"></a>
+      </div>
+      <div class="col-md-2 mb-2">
+        <a href="#"><img src="@/assets/media/images/partners/club_acidose.jpg" alt="" class="img-fluid" ></a>
+      </div>
+      <div class="col-md-1 mb-2">
         <a href="https://www.gravylet.ca/" target="_blank"><img src="@/assets/media/images/partners/gravylet.png" alt="" class="img-fluid"></a>
       </div>
       <div class="col-md-2 mb-2 visually-hidden">
@@ -208,13 +214,10 @@
     <div class="row justify-content-center mb-3">
       <h4 class="text-center mb-5">Moyen pignon</h4>
       <div class="col-md-2 mb-2">
-        <a href="https://cliniqueremixsante.com/" target="_blank"><img src="@/assets/media/images/partners/remix-sante.png" alt="" class="img-fluid" style="max-height: 70px"></a>
-      </div>
-      <div class="col-md-2 mb-2">
         <a href="http://www.optiquesante.com/" target="_blank"><img src="@/assets/media/images/partners/logo-10.png" alt="" class="img-fluid" ></a>
       </div>
-      <div class="col-md-2 mb-2">
-        <a href="#"><img src="@/assets/media/images/partners/logo-01.png" alt="" class="img-fluid" ></a>
+      <div class="col-md-1 mb-2">
+        <a href="https://cliniqueremixsante.com/" target="_blank"><img src="@/assets/media/images/partners/remix-sante.png" alt="" class="img-fluid" style="max-height: 70px"></a>
       </div>
       <div class="col-md-2 mb-2">
         <a href="http://www.velociteconcept.ca/" target="_blank"><img src="@/assets/media/images/partners/logo-19.png" alt="" class="img-fluid" ></a>
@@ -224,11 +227,11 @@
       <div class="col-md-2 mb-2">
         <a href="https://www.cervopolygaz.ca/" target="_blank"><img src="@/assets/media/images/partners/pgs.png" alt="" class="img-fluid" ></a>
       </div>
-      <div class="col-md-2 mb-2">
-        <a href="https://www.sportcycleexpert.ca/" target="_blank"><img src="@/assets/media/images/partners/sport_cycle.jpg" alt="" class="img-fluid" ></a>
+      <div class="col-md-1 mb-2">
+        <a href="http://www.lambertsportphysio.com/" target="_blank"><img src="@/assets/media/images/partners/physio_lambert.png" alt="" class="img-fluid" ></a>
       </div>
       <div class="col-md-2 mb-2">
-        <a href="http://www.lambertsportphysio.com/" target="_blank"><img src="@/assets/media/images/partners/physio_lambert.png" alt="" class="img-fluid" ></a>
+        <a href="https://www.sportcycleexpert.ca/" target="_blank"><img src="@/assets/media/images/partners/sport_cycle.jpg" alt="" class="img-fluid" ></a>
       </div>
     </div>
 

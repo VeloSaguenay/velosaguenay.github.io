@@ -30,7 +30,7 @@
           vous invitons donc à en apprendre plus sur le visage de ce sport de plein air et de
           ses adeptes pour mieux comprendre les bénéfices potentiels pour votre entreprise
           d'être associée au Centre de vélo de montagne Le Panoramique!</p>
-        <p><a class="btn btn-md btn-secondary mt-3" href="documents/VeloSaguenay_PlanPartenariat2022.pdf" target="_blank">Plan de partenariat</a></p>
+        <p><a class="btn btn-md btn-secondary mt-3" href="https://www.facebook.com/VeloSaguenay/" target="_blank">Communiquez avec nous !</a></p>
       </div>
     </div>
 

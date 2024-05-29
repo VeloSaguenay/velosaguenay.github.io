@@ -40,7 +40,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <div class="container">
         <div class="row">
           <div class="col-md-12">
-            <span class="text-muted">&copy; 2023 Vélo Saguenay</span>
+            <span class="text-muted">&copy; 2024 Vélo Saguenay</span>
             <a class="float-end d-block" href="https://www.facebook.com/VeloSaguenay/" target="_blank"><i class="bi bi-facebook" style="color:#6C757F"></i></a>
           </div>
         </div>

@@ -22,7 +22,7 @@ import { RouterLink, RouterView } from 'vue-router'
           <a class="nav-link dropdown-toggle link-dark" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Mont-Bélu</a>
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="https://www.trailforks.com/region/montbelu-bike-park" target="_blank">Carte des sentiers</a></li>
-            <li><a class="dropdown-item" href="https://app.endorphine.ca/c/Mont-Belu" target="_blank">Billetterie</a></li>
+            <li><a class="dropdown-item" href="https://app.reservationpresence.com/montbelubike" target="_blank">Billetterie</a></li>
             <li><RouterLink to="/mont-belu"  class="dropdown-item">En savoir plus</RouterLink></li>
           </ul>
         </li>

@@ -25,7 +25,7 @@
             <p>Passe de saison disponible</p>
             <p>
               <a class="btn btn-lg btn-primary me-2 mb-2" href="https://app.endorphine.ca/c/lepanoramique" target="_blank">Billetterie Le Panoramique</a>
-              <a class="btn btn-lg btn-primary mb-2" href="https://app.endorphine.ca/c/Mont-Belu" target="_blank">Billetterie Mont-Bélu</a>
+              <a class="btn btn-lg btn-primary mb-2" href="https://app.reservationpresence.com/montbelubike" target="_blank">Billetterie Mont-Bélu</a>
             </p>
           </div>
         </div>

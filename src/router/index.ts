@@ -71,10 +71,26 @@ const router = createRouter({
 });
 
 router.beforeEach((to, from, next) => {
-  document.title = to.meta.title || "Vélo Saguenay";
-  const metaDesc = document.querySelector('meta[name="description"]');
-  if (metaDesc) metaDesc.setAttribute("content", to.meta.description || "");
+  updateDocumentMeta(to.meta);
   next();
 });
+
+/**
+ * Updates document meta information based on route metadata
+ * @param meta Route meta information containing title and description
+ */
+function updateDocumentMeta(meta: { title?: string; description?: string }) {
+  const title = "Vélo Saguenay";
+  const description = "";
+
+  // Update document title
+  document.title = meta.title || title;
+
+  // Update meta description
+  const metaDesc = document.querySelector('meta[name="description"]');
+  if (metaDesc) {
+    metaDesc.setAttribute("content", meta.description || description);
+  }
+}
 
 export default router;

@@ -260,9 +260,9 @@
         /></a>
       </div>
       <div class="col-md-2 mb-2 ms-5">
-        <a href="https://www.uqac.ca/" target="_blank"
+        <a href="https://mecaniqueadg.com/" target="_blank"
           ><img
-            src="@/assets/media/images/partners/logo_uqac.png"
+            src="@/assets/media/images/partners/mecanique_adg.png"
             alt=""
             class="img-fluid"
         /></a>
@@ -282,8 +282,16 @@
     <div class="row justify-content-center">
       <h4 class="text-center mb-5">All Mountain</h4>
       <div class="col-md-2 mb-2">
+        <a href="https://www.velosexpertsaguenay.com/" target="_blank"
+        ><img
+            src="@/assets/media/images/partners/velo_expert_saguenay.png"
+            alt=""
+            class="img-fluid"
+        /></a>
+      </div>
+      <div class="col-md-2 mb-2">
         <a href="https://www.industrielami.com/" target="_blank"
-          ><img
+        ><img
             src="@/assets/media/images/partners/group_ami.png"
             alt=""
             class="img-fluid"
@@ -512,4 +520,5 @@
     </div>
   </div>
 </template>
-<script setup lang="ts"></script>
+<script setup lang="ts">
+</script>

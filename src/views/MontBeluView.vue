@@ -87,9 +87,7 @@
         <h2 class="featurette-heading">Remontée mécanique</h2>
         <ul class="lead">
           <li>Ouvert le mercredi de 16h à 20h et le dimanche de 10h à 16h</li>
-          <li>25$/jour, 220$ passe de saison (132$ membres Pano)</li>
-          <li>Étudiants 13-21 ans -> 50% de rabais</li>
-          <li>Gratuit moins de 13 ans</li>
+          <li>Consulez la billetterie pour les tarifs</li>
         </ul>
         <p>
           <a
@@ -108,7 +106,7 @@
       <div class="col-md-7">
         <h2 class="featurette-heading">Sentier d'ascension</h2>
         <ul class="lead">
-          <li>Accès 7 jours sur 7</li>
+          <li>Accès tous les jours de 7h à 20h</li>
         </ul>
         <p>
           <a

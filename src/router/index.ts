@@ -67,6 +67,16 @@ const router = createRouter({
           "Le panoramique possède un réseau de plus de 41 km de sentiers étendu sur 40 sentiers aménagés.",
       },
     },
+    {
+      path: "/emploi",
+      name: "emploi",
+      component: () => import("../views/JobOfferView.vue"),
+      meta: {
+        title: "Vélo Saguenay - Offre d'emploi",
+        description:
+          "Rejoignez notre équipe! Nous recherchons un(e) Directeur(trice) des opérations ski et vélo. Poste permanent à l'année à Saguenay.",
+      },
+    },
   ],
 });
 

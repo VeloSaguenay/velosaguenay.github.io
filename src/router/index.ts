@@ -72,9 +72,11 @@ const router = createRouter({
       name: "emploi",
       component: () => import("../views/JobOfferView.vue"),
       meta: {
-        title: "Vélo Saguenay - Offre d'emploi",
+        title: "🎯 Offre d'emploi - Directeur(trice) des opérations ski et vélo | Vélo Saguenay",
         description:
-          "Rejoignez notre équipe! Nous recherchons un(e) Directeur(trice) des opérations ski et vélo. Poste permanent à l'année à Saguenay.",
+          "Rejoignez notre équipe! Poste permanent à l'année à Saguenay. Directeur(trice) des opérations ski et vélo pour Le Panoramique et Mont-Bélu. Travail terrain, gestion d'équipe, développement d'infrastructures.",
+        ogImage: `${window.location.origin}/og-emploi.jpg`,
+        ogType: "article",
       },
     },
   ],
@@ -85,22 +87,61 @@ router.beforeEach((to, from, next) => {
   next();
 });
 
+interface RouteMeta {
+  title?: string;
+  description?: string;
+  ogImage?: string;
+  ogType?: string;
+}
+
 /**
  * Updates document meta information based on route metadata
- * @param meta Route meta information containing title and description
+ * @param meta Route meta information containing title, description, and Open Graph data
  */
-function updateDocumentMeta(meta: { title?: string; description?: string }) {
-  const title = "Vélo Saguenay";
-  const description = "";
+function updateDocumentMeta(meta: RouteMeta) {
+  const defaultTitle = "Vélo Saguenay";
+  const defaultDescription = "Vélo Saguenay coordonne le développement et l'entretien de deux sites exceptionnels de vélo de montagne en milieu urbain.";
+  const defaultImage = `${window.location.origin}/og-image.jpg`;
+  const siteUrl = window.location.origin + window.location.pathname + window.location.hash;
+
+  const title = meta.title || defaultTitle;
+  const description = meta.description || defaultDescription;
+  const ogImage = meta.ogImage || defaultImage;
+  const ogType = meta.ogType || "website";
 
   // Update document title
-  document.title = meta.title || title;
+  document.title = title;
 
-  // Update meta description
-  const metaDesc = document.querySelector('meta[name="description"]');
-  if (metaDesc) {
-    metaDesc.setAttribute("content", meta.description || description);
-  }
+  // Helper function to update or create meta tag
+  const updateMetaTag = (selector: string, content: string) => {
+    let element = document.querySelector(selector);
+    if (element) {
+      element.setAttribute("content", content);
+    } else {
+      element = document.createElement("meta");
+      const [attr, value] = selector.replace(/[\[\]]/g, "").split("=");
+      element.setAttribute(attr, value.replace(/"/g, ""));
+      element.setAttribute("content", content);
+      document.head.appendChild(element);
+    }
+  };
+
+  // Update standard meta tags
+  updateMetaTag('meta[name="description"]', description);
+
+  // Update Open Graph meta tags
+  updateMetaTag('meta[property="og:title"]', title);
+  updateMetaTag('meta[property="og:description"]', description);
+  updateMetaTag('meta[property="og:image"]', ogImage);
+  updateMetaTag('meta[property="og:url"]', siteUrl);
+  updateMetaTag('meta[property="og:type"]', ogType);
+  updateMetaTag('meta[property="og:site_name"]', "Vélo Saguenay");
+
+  // Update Twitter Card meta tags
+  updateMetaTag('meta[name="twitter:card"]', "summary_large_image");
+  updateMetaTag('meta[name="twitter:title"]', title);
+  updateMetaTag('meta[name="twitter:description"]', description);
+  updateMetaTag('meta[name="twitter:image"]', ogImage);
 }
 
 export default router;

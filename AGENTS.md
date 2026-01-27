@@ -43,6 +43,10 @@ This application is a Vue 3 + TypeScript static website and its main packages & 
 
 ## Documentation Files
 - You must only create documentation files if explicitly requested by the user.
+- All documentation files MUST be placed in the `docs/` directory.
+- Never create documentation files at the project root.
+- The `docs/` directory contains guides, tutorials, and technical documentation.
+- Keep documentation organized by topic (e.g., `docs/FACEBOOK_SHARING_GUIDE.md`, `docs/OG_IMAGE_GUIDE.md`).
 
 
 === vue rules ===

@@ -59,12 +59,21 @@
             <h1>Contribuez en devenant membre</h1>
             <p>Passe de saison disponible</p>
             <p>
-              <a
-                class="btn btn-lg btn-primary me-2 mb-2"
-                href="https://app.endorphine.ca/c/lepanoramique"
-                target="_blank"
-                >Billetterie Le Panoramique</a
+              <span
+                class="d-inline-block me-2 mb-2"
+                tabindex="0"
+                data-bs-toggle="tooltip"
+                data-bs-placement="top"
+                data-bs-title="Billetterie temporairement indisponible (changement de plateforme en cours)"
               >
+                <button
+                  class="btn btn-lg btn-primary"
+                  disabled
+                  style="pointer-events: none"
+                >
+                  Billetterie Le Panoramique
+                </button>
+              </span>
               <a
                 class="btn btn-lg btn-primary mb-2"
                 href="https://app.reservationpresence.com/montbelubike"
@@ -282,13 +291,21 @@
           </div>
         </div>
         <div class="d-flex flex-wrap gap-2">
-          <a
-            href="https://app.endorphine.ca/c/lepanoramique"
-            class="btn btn-primary"
-            target="_blank"
+          <span
+            class="d-inline-block"
+            tabindex="0"
+            data-bs-toggle="tooltip"
+            data-bs-placement="top"
+            data-bs-title="Billetterie temporairement indisponible (changement de plateforme en cours)"
           >
-            <i class="bi bi-ticket-perforated me-1"></i> Billetterie
-          </a>
+            <button
+              class="btn btn-primary"
+              disabled
+              style="pointer-events: none"
+            >
+              <i class="bi bi-ticket-perforated me-1"></i> Billetterie
+            </button>
+          </span>
           <a
             href="documents/trails_map.pdf"
             class="btn btn-outline-primary"
@@ -445,9 +462,7 @@
   </div>
   <!-- /.container -->
 
-  <div
-    class="partners-section py-5 bg-white rounded-4 shadow-sm mt-5 mx-2 mx-md-0 mb-5"
-  >
+  <div class="partners-section py-5 bg-white shadow-sm mt-5">
     <div class="container px-4 px-md-5">
       <div class="text-center mb-5">
         <span
@@ -850,15 +865,43 @@
           /></a>
         </div>
       </div>
+
+      <div class="text-center mt-5 pt-4">
+        <h4 class="mb-3">Vous souhaitez devenir partenaire ?</h4>
+        <p class="text-muted mb-4">
+          Associez votre entreprise à une communauté passionnée de plein air et
+          participez au développement du vélo de montagne dans la région.
+        </p>
+        <a
+          href="https://www.facebook.com/VeloSaguenay/"
+          target="_blank"
+          class="btn btn-lg btn-outline-primary"
+        >
+          <i class="bi bi-facebook me-2" aria-hidden="true"></i>
+          Communiquez avec nous sur Facebook
+        </a>
+      </div>
     </div>
   </div>
 </template>
 <script setup lang="ts">
+import { onMounted } from "vue";
+import { Tooltip } from "bootstrap";
+
 function scrollToSection(sectionId: string): void {
   document
     .getElementById(sectionId)
     ?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
+
+onMounted(() => {
+  const tooltipTriggerList = document.querySelectorAll(
+    '[data-bs-toggle="tooltip"]'
+  );
+  tooltipTriggerList.forEach(
+    (tooltipTriggerEl) => new Tooltip(tooltipTriggerEl)
+  );
+});
 </script>
 
 <style scoped>

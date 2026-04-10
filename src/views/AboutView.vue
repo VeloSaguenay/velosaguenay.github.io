@@ -28,7 +28,7 @@
 
   <div class="container my-5">
     <!-- Pour une passion accessible -->
-    <div class="row justify-content-center mb-5 pb-5">
+    <div class="row justify-content-center mb-5 pb-5" data-aos="fade-up">
       <div class="col-md-8 text-center">
         <h2 class="display-5 fw-bold text-primary mb-4">
           Pour une passion accessible
@@ -50,7 +50,7 @@
 
     <!-- CA Members -->
     <div class="mb-5 pb-5">
-      <div class="text-center mb-5">
+      <div class="text-center mb-5" data-aos="fade-up">
         <h2 class="h1 fw-bold text-dark">
           Membres du conseil d'administration
         </h2>
@@ -68,9 +68,11 @@
 
       <div class="row g-4 justify-content-center">
         <div
-          v-for="member in boardMembers"
+          v-for="(member, index) in boardMembers"
           :key="member.name"
           class="col-md-4 col-sm-6"
+          data-aos="fade-up"
+          :data-aos-delay="index * 50"
         >
           <div
             class="bg-white rounded-4 shadow-sm p-4 h-100 text-center d-flex flex-column justify-content-center border-top border-primary border-4"
@@ -84,7 +86,7 @@
 
     <!-- Direction Générale -->
     <div class="mb-5 pb-5 mt-5 pt-4">
-      <div class="text-center mb-5">
+      <div class="text-center mb-5" data-aos="fade-up">
         <h2 class="h1 fw-bold text-dark">Direction générale</h2>
         <div class="d-flex justify-content-center mt-3">
           <div
@@ -99,7 +101,7 @@
       </div>
 
       <div class="row g-4 justify-content-center">
-        <div class="col-md-4 col-sm-6">
+        <div class="col-md-4 col-sm-6" data-aos="fade-up" data-aos-delay="100">
           <div
             class="bg-white rounded-4 shadow-sm p-4 h-100 text-center d-flex flex-column justify-content-center border-top border-primary border-4"
           >
@@ -112,7 +114,7 @@
   </div>
 
   <!-- Contactez-nous section -->
-  <div class="container mb-5 pb-5">
+  <div class="container mb-5 pb-5" data-aos="zoom-in">
     <div class="bg-primary bg-opacity-10 rounded-4 p-5 text-center">
       <h2 class="h1 fw-bold text-dark mb-3">Contactez-nous</h2>
       <p class="lead text-dark col-md-8 mx-auto mb-4">

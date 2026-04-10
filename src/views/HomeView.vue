@@ -134,7 +134,10 @@
   <div class="container marketing">
     <!-- START THE FEATURETTES -->
 
-    <div class="row align-items-start g-5 mb-5 mt-2 home-intro-row">
+    <div
+      class="row align-items-start g-5 mb-5 mt-2 home-intro-row"
+      data-aos="fade-up"
+    >
       <div class="col-lg-8 mb-4 mb-lg-0">
         <h2 class="featurette-heading">
           Vélo Saguenay, pour une passion accessible
@@ -215,6 +218,7 @@
     <div
       id="le-panoramique-section"
       class="row featurette align-items-center g-5 mb-5 home-featurette-row"
+      data-aos="fade-up"
     >
       <div class="col-md-7">
         <h2 class="featurette-heading mb-1">Le Panoramique</h2>
@@ -341,6 +345,7 @@
     <div
       id="mont-belu-section"
       class="row featurette align-items-center g-5 mb-5 home-featurette-row"
+      data-aos="fade-up"
     >
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading mb-1">Mont-Bélu Véloparc</h2>
@@ -459,7 +464,7 @@
   </div>
   <!-- /.container -->
 
-  <div class="partners-section py-5 bg-white shadow-sm mt-5">
+  <div class="partners-section py-5 bg-white shadow-sm mt-5" data-aos="fade-up">
     <div class="container px-4 px-md-5">
       <div class="text-center mb-5">
         <span
@@ -863,7 +868,7 @@
         </div>
       </div>
 
-      <div class="text-center mt-5 pt-4">
+      <div class="text-center mt-5 pt-4" data-aos="zoom-in">
         <h4 class="mb-3">Vous souhaitez devenir partenaire ?</h4>
         <p class="text-muted mb-4">
           Associez votre entreprise à une communauté passionnée de plein air et

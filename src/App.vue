@@ -1,8 +1,25 @@
 <script setup lang="ts">
-import { nextTick } from "vue";
+import { nextTick, onMounted } from "vue";
 import { RouterLink, RouterView, useRouter } from "vue-router";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const router = useRouter();
+
+onMounted(() => {
+  AOS.init({
+    duration: 400,
+    easing: "ease-in-out",
+    once: true,
+  });
+});
+
+router.afterEach(() => {
+  // Give time for the DOM to render the new route before refreshing AOS
+  setTimeout(() => {
+    AOS.refresh();
+  }, 100);
+});
 
 async function navigateToSection(sectionId: string): Promise<void> {
   if (router.currentRoute.value.name !== "home") {

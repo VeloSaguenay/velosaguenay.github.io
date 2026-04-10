@@ -27,7 +27,7 @@
   </div>
 
   <div class="container my-5 pb-5">
-    <div class="text-center mb-5">
+    <div class="text-center mb-5" data-aos="fade-up">
       <h2 class="display-5 fw-bold text-primary">Comment contribuer ?</h2>
       <p class="lead text-muted col-md-8 mx-auto">
         Vélo Saguenay repose sur l'engagement de sa communauté. Que ce soit en
@@ -38,7 +38,7 @@
 
     <div class="row g-4 justify-content-center">
       <!-- Partenaire -->
-      <div class="col-md-6">
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
         <div class="bg-white rounded-4 shadow-sm p-5 h-100 d-flex flex-column">
           <div class="mb-4">
             <i
@@ -67,7 +67,7 @@
       </div>
 
       <!-- Bénévole -->
-      <div class="col-md-6">
+      <div class="col-md-6" data-aos="fade-up" data-aos-delay="200">
         <div class="bg-white rounded-4 shadow-sm p-5 h-100 d-flex flex-column">
           <div class="mb-4">
             <i class="bi bi-people text-primary" style="font-size: 2.5rem"></i>

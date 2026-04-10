@@ -65,8 +65,10 @@ html:root {
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
+/* html body a une spécificité (0,0,2) vs (0,0,1) pour body seul */
+html body {
   color: #3d3530;
+  background-color: #faf3e8;
 }
 
 
@@ -124,7 +126,8 @@ body {
 
 h2.partners {
   text-align: center;
-  margin-bottom: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
 }
 
 /* Featurettes

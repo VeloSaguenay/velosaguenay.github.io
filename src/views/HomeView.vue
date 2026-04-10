@@ -319,7 +319,7 @@
       <div class="col-md-5">
         <img
           src="@/assets/media/images/gallery/pano_1_500.jpg"
-          class="rounded img-fluid"
+          class="rounded img-fluid shadow"
           alt=""
         />
       </div>
@@ -439,11 +439,11 @@
       <div class="col-md-5 order-md-1">
         <img
           src="@/assets/media/images/gallery/belu_2_500.jpg"
-          class="rounded img-fluid mb-3"
+          class="rounded img-fluid mb-3 shadow"
           alt="Mont-Bélu Véloparc"
         />
         <div
-          class="home-video-wrapper bg-dark rounded overflow-hidden shadow-sm"
+          class="home-video-wrapper bg-dark rounded overflow-hidden shadow"
         >
           <div class="ratio ratio-16x9">
             <iframe
@@ -494,9 +494,8 @@
   </div>
   <!-- /.container -->
 
-  <div class="container">
-    <hr class="featurette-divider" />
-
+  <div class="partners-section">
+    <div class="container">
     <h2 class="partners text-center">Les partenaires</h2>
 
     <hr class="mb-5 mt-5" />
@@ -809,6 +808,7 @@
       </div>
     </div>
   </div>
+  </div>
 </template>
 <script setup lang="ts">
 function scrollToSection(sectionId: string): void {
@@ -837,6 +837,7 @@ function scrollToSection(sectionId: string): void {
 }
 
 .home-location-row {
+  margin-top: -3rem;
   margin-bottom: 1rem;
 }
 
@@ -845,5 +846,12 @@ function scrollToSection(sectionId: string): void {
   .home-featurette-row .featurette-heading {
     margin-top: 0;
   }
+}
+
+.partners-section {
+  background-color: #fff;
+  padding: 1rem 0 3rem;
+  margin: 2rem 0 0;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
 }
 </style>

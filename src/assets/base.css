@@ -1,9 +1,74 @@
+/* PALETTE DE COULEURS - Thème vélo de montagne chaleureux
+-------------------------------------------------- */
+
+/* html:root a une spécificité (0,1,1) vs (0,1,0) pour :root seul,
+   ce qui garantit que nos variables écrasent celles de Bootstrap
+   peu importe l'ordre de chargement dans le bundle Vite. */
+html:root {
+  /* Primaire : Terracotta orangé — sentiers, terre, énergie de montagne */
+  --bs-primary: #d4621a;
+  --bs-primary-rgb: 212, 98, 26;
+  --bs-primary-text-emphasis: #5c2a0b;
+  --bs-primary-bg-subtle: #fae5d3;
+  --bs-primary-border-subtle: #f0bc98;
+
+  /* Fond léger : Crème chaud */
+  --bs-light: #fdf5ee;
+  --bs-light-rgb: 253, 245, 238;
+
+  /* Footer sombre : Brun très foncé */
+  --bs-dark: #1e1208;
+  --bs-dark-rgb: 30, 18, 8;
+
+  /* Liens */
+  --bs-link-color: #d4621a;
+  --bs-link-color-rgb: 212, 98, 26;
+  --bs-link-hover-color: #a84d16;
+  --bs-link-hover-color-rgb: 168, 77, 22;
+}
+
+/* .btn.btn-primary a une spécificité (0,2,0) vs (0,1,0) pour .btn-primary seul */
+.btn.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #d4621a;
+  --bs-btn-border-color: #d4621a;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #b35318;
+  --bs-btn-hover-border-color: #a84d16;
+  --bs-btn-focus-shadow-rgb: 212, 98, 26;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #a84d16;
+  --bs-btn-active-border-color: #9d4814;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #d4621a;
+  --bs-btn-disabled-border-color: #d4621a;
+}
+
+.btn.btn-outline-primary {
+  --bs-btn-color: #d4621a;
+  --bs-btn-border-color: #d4621a;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #d4621a;
+  --bs-btn-hover-border-color: #d4621a;
+  --bs-btn-focus-shadow-rgb: 212, 98, 26;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #d4621a;
+  --bs-btn-active-border-color: #d4621a;
+  --bs-btn-disabled-color: #d4621a;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #d4621a;
+}
+
+
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
 
-body {
-  color: #5a5a5a;
+/* html body a une spécificité (0,0,2) vs (0,0,1) pour body seul */
+html body {
+  color: #3d3530;
+  background-color: #faf3e8;
 }
 
 
@@ -61,7 +126,8 @@ body {
 
 h2.partners {
   text-align: center;
-  margin-bottom: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
 }
 
 /* Featurettes

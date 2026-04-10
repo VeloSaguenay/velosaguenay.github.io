@@ -40,32 +40,17 @@ const router = createRouter({
     {
       path: "/mont-belu",
       name: "mont-belu",
-      component: () => import("../views/MontBeluView.vue"),
-      meta: {
-        title: "Vélo Saguenay - Mont-Bélu Véloparc",
-        description:
-          "Le Mont Bélu offre des sentiers de type « enduro » depuis 2012. Un sentier d’ascension et 6 sentiers descendant de tous les niveaux sont disponibles.",
-      },
+      redirect: { name: "home" },
     },
     {
       path: "/contact",
       name: "contact",
-      component: () => import("../views/ContactView.vue"),
-      meta: {
-        title: "Vélo Saguenay - Contactez-nous",
-        description:
-          "Vélo Saguenay ce fera un plaisir de vous répondre. Le meilleur moyen de communiquer avec nous est d'utiliser la page facebook de Vélo Saguenay.",
-      },
+      redirect: { name: "about" },
     },
     {
       path: "/le-panoramique",
       name: "le-panoramique",
-      component: () => import("../views/LePanoramique.vue"),
-      meta: {
-        title: "Vélo Saguenay - Le Panoramique",
-        description:
-          "Le panoramique possède un réseau de plus de 41 km de sentiers étendu sur 40 sentiers aménagés.",
-      },
+      redirect: { name: "home" },
     },
     {
       path: "/emploi",

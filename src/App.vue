@@ -1,11 +1,8 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from "vue-router";
-import JobAlertBanner from "@/components/JobAlertBanner.vue";
 </script>
 
 <template>
-  <JobAlertBanner />
-
   <div class="container">
     <header class="d-flex flex-wrap justify-content-center py-3 mb-1">
       <RouterLink
@@ -88,12 +85,6 @@ import JobAlertBanner from "@/components/JobAlertBanner.vue";
           >
         </li>
         <li>
-          <RouterLink to="/emploi" class="nav-link link-dark">
-            Carrières
-            <span class="badge bg-danger ms-1">Nouveau</span>
-          </RouterLink>
-        </li>
-        <li>
           <RouterLink to="/about" class="nav-link link-dark"
             >À propos</RouterLink
           >
@@ -115,10 +106,6 @@ import JobAlertBanner from "@/components/JobAlertBanner.vue";
         <div class="row">
           <div class="col-md-12">
             <span class="text-muted">&copy; 2024 Vélo Saguenay</span>
-            <span class="text-muted mx-3">|</span>
-            <RouterLink to="/emploi" class="text-warning text-decoration-none">
-              🎯 Nous embauchons!
-            </RouterLink>
             <a
               class="float-end d-block"
               href="https://www.facebook.com/VeloSaguenay/"

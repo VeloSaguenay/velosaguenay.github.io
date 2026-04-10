@@ -21,12 +21,6 @@
         data-bs-slide-to="2"
         aria-label="Slide 3"
       ></button>
-      <button
-        type="button"
-        data-bs-target="#myCarousel"
-        data-bs-slide-to="3"
-        aria-label="Slide 4"
-      ></button>
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
@@ -90,34 +84,6 @@
             <p>
               <RouterLink to="/mont-belu" class="btn btn-lg btn-primary"
                 >Plus d'informations</RouterLink
-              >
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img
-          src="@/assets/media/images/gallery/pano_1.jpg"
-          class="img-fluid"
-          alt=""
-          style="filter: brightness(50%)"
-        />
-        <div class="container">
-          <div class="carousel-caption text-center">
-            <h1 class="display-4 fw-bold">🎯 Nous embauchons!</h1>
-            <p class="lead mb-4">
-              Rejoignez notre équipe en tant que Directeur(trice) des opérations
-              ski et vélo
-            </p>
-            <p class="mb-2">
-              <span class="badge bg-warning text-dark fs-6 me-2"
-                >📍 Saguenay</span
-              >
-              <span class="badge bg-success fs-6">Poste permanent</span>
-            </p>
-            <p class="mt-4">
-              <RouterLink to="/emploi" class="btn btn-lg btn-warning fw-bold"
-                >Découvrir l'offre</RouterLink
               >
             </p>
           </div>
@@ -198,55 +164,6 @@
           class="rounded img-fluid"
           alt=""
         />
-      </div>
-    </div>
-
-    <hr class="featurette-divider" />
-
-    <!-- Rejoignez notre équipe -->
-    <div class="row featurette">
-      <div class="col-md-12">
-        <div class="card border-warning shadow-lg">
-          <div class="card-body p-5 bg-light">
-            <div class="row align-items-center">
-              <div class="col-md-8">
-                <h2 class="featurette-heading mb-3">
-                  🚴 Rejoignez notre équipe!
-                </h2>
-                <p class="lead mb-3">
-                  Nous recherchons un(e)
-                  <strong>Directeur(trice) des opérations ski et vélo</strong>
-                  pour assurer le leadership opérationnel de nos activités
-                  quatre saisons.
-                </p>
-                <ul class="list-unstyled mb-0">
-                  <li class="mb-2">✅ Poste permanent à l'année</li>
-                  <li class="mb-2">✅ Travail terrain et gestion</li>
-                  <li class="mb-2">
-                    ✅ Accès gratuit aux activités pour vous et votre famille
-                  </li>
-                  <li class="mb-2">✅ Fonds de pension</li>
-                </ul>
-              </div>
-              <div class="col-md-4 text-center">
-                <div class="d-grid gap-3">
-                  <RouterLink
-                    to="/emploi"
-                    class="btn btn-warning btn-lg fw-bold"
-                  >
-                    📋 Voir l'offre complète
-                  </RouterLink>
-                  <a
-                    href="mailto:Fred.belu@live.ca"
-                    class="btn btn-outline-primary btn-lg"
-                  >
-                    📧 Postuler
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
 

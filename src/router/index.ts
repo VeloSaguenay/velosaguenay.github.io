@@ -70,14 +70,7 @@ const router = createRouter({
     {
       path: "/emploi",
       name: "emploi",
-      component: () => import("../views/JobOfferView.vue"),
-      meta: {
-        title: "🎯 Offre d'emploi - Directeur(trice) des opérations ski et vélo | Vélo Saguenay",
-        description:
-          "Rejoignez notre équipe! Poste permanent à l'année à Saguenay. Directeur(trice) des opérations ski et vélo pour Le Panoramique et Mont-Bélu. Travail terrain, gestion d'équipe, développement d'infrastructures.",
-        ogImage: `${window.location.origin}/og-emploi.jpg`,
-        ogType: "article",
-      },
+      redirect: { name: "home" },
     },
   ],
 });
@@ -100,9 +93,11 @@ interface RouteMeta {
  */
 function updateDocumentMeta(meta: RouteMeta) {
   const defaultTitle = "Vélo Saguenay";
-  const defaultDescription = "Vélo Saguenay coordonne le développement et l'entretien de deux sites exceptionnels de vélo de montagne en milieu urbain.";
+  const defaultDescription =
+    "Vélo Saguenay coordonne le développement et l'entretien de deux sites exceptionnels de vélo de montagne en milieu urbain.";
   const defaultImage = `${window.location.origin}/og-image.jpg`;
-  const siteUrl = window.location.origin + window.location.pathname + window.location.hash;
+  const siteUrl =
+    window.location.origin + window.location.pathname + window.location.hash;
 
   const title = meta.title || defaultTitle;
   const description = meta.description || defaultDescription;
@@ -119,7 +114,10 @@ function updateDocumentMeta(meta: RouteMeta) {
       element.setAttribute("content", content);
     } else {
       element = document.createElement("meta");
-      const [attr, value] = selector.replace(/[\[\]]/g, "").split("=");
+      const [attr, value] = selector
+        .replace(/\[/g, "")
+        .replace(/\]/g, "")
+        .split("=");
       element.setAttribute(attr, value.replace(/"/g, ""));
       element.setAttribute("content", content);
       document.head.appendChild(element);

@@ -1,5 +1,22 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from "vue-router";
+import { nextTick } from "vue";
+import { RouterLink, RouterView, useRouter } from "vue-router";
+
+const router = useRouter();
+
+async function navigateToSection(sectionId: string): Promise<void> {
+  if (router.currentRoute.value.name !== "home") {
+    await router.push({ name: "home" });
+  }
+
+  await nextTick();
+
+  window.requestAnimationFrame(() => {
+    document
+      .getElementById(sectionId)
+      ?.scrollIntoView({ behavior: "smooth", block: "start" });
+  });
+}
 </script>
 
 <template>
@@ -13,71 +30,21 @@ import { RouterLink, RouterView } from "vue-router";
       </RouterLink>
 
       <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-        <li class="nav-item dropdown">
+        <li>
           <a
-            class="nav-link dropdown-toggle link-dark"
-            data-bs-toggle="dropdown"
             href="#"
-            role="button"
-            aria-expanded="false"
+            class="nav-link link-dark"
+            @click.prevent="navigateToSection('le-panoramique-section')"
             >Le Panoramique</a
           >
-          <ul class="dropdown-menu">
-            <li>
-              <a
-                class="dropdown-item"
-                href="documents/trails_map.pdf"
-                target="_blank"
-                >Carte des sentiers</a
-              >
-            </li>
-            <li>
-              <a
-                class="dropdown-item"
-                href="https://app.endorphine.ca/c/lepanoramique"
-                target="_blank"
-                >Billetterie</a
-              >
-            </li>
-            <li>
-              <RouterLink to="/le-panoramique" class="dropdown-item"
-                >En savoir plus</RouterLink
-              >
-            </li>
-          </ul>
         </li>
-        <li class="nav-item dropdown">
+        <li>
           <a
-            class="nav-link dropdown-toggle link-dark"
-            data-bs-toggle="dropdown"
             href="#"
-            role="button"
-            aria-expanded="false"
+            class="nav-link link-dark"
+            @click.prevent="navigateToSection('mont-belu-section')"
             >Mont-Bélu</a
           >
-          <ul class="dropdown-menu">
-            <li>
-              <a
-                class="dropdown-item"
-                href="https://www.trailforks.com/region/montbelu-bike-park"
-                target="_blank"
-                >Carte des sentiers</a
-              >
-            </li>
-            <li>
-              <a
-                class="dropdown-item"
-                href="https://app.reservationpresence.com/montbelubike"
-                target="_blank"
-                >Billetterie</a
-              >
-            </li>
-            <li>
-              <RouterLink to="/mont-belu" class="dropdown-item"
-                >En savoir plus</RouterLink
-              >
-            </li>
-          </ul>
         </li>
         <li>
           <RouterLink to="/involvement" class="nav-link link-dark"
@@ -87,11 +54,6 @@ import { RouterLink, RouterView } from "vue-router";
         <li>
           <RouterLink to="/about" class="nav-link link-dark"
             >À propos</RouterLink
-          >
-        </li>
-        <li>
-          <RouterLink to="/contact" class="nav-link link-dark"
-            >Contactez-nous</RouterLink
           >
         </li>
       </ul>

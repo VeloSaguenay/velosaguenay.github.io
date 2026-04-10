@@ -35,9 +35,13 @@
             <h1>Le Panoramique</h1>
             <p>Des sentiers de rêves en été comme en hiver !</p>
             <p>
-              <RouterLink to="/le-panoramique" class="btn btn-lg btn-primary"
-                >Plus d'informations</RouterLink
+              <button
+                type="button"
+                class="btn btn-lg btn-primary"
+                @click="scrollToSection('le-panoramique-section')"
               >
+                Découvrir la section
+              </button>
             </p>
           </div>
         </div>
@@ -82,9 +86,13 @@
           <div class="carousel-caption">
             <h1>Mont-Bélu Véloparc</h1>
             <p>
-              <RouterLink to="/mont-belu" class="btn btn-lg btn-primary"
-                >Plus d'informations</RouterLink
+              <button
+                type="button"
+                class="btn btn-lg btn-primary"
+                @click="scrollToSection('mont-belu-section')"
               >
+                Découvrir la section
+              </button>
             </p>
           </div>
         </div>
@@ -117,20 +125,195 @@
   <div class="container marketing">
     <!-- START THE FEATURETTES -->
 
-    <div class="row featurette">
+    <div class="row align-items-start g-5 mb-5 mt-2 home-intro-row">
+      <div class="col-lg-8 mb-4 mb-lg-0">
+        <h2 class="featurette-heading">
+          Vélo Saguenay, pour une passion accessible
+        </h2>
+        <p class="lead">
+          Vélo Saguenay coordonne le développement et l'entretien de deux sites
+          exceptionnels de vélo de montagne en milieu urbain : Le Panoramique à
+          Chicoutimi et le Mont-Bélu Véloparc à La Baie.
+        </p>
+        <p>
+          Notre mission est d'offrir des lieux de pratique accessibles,
+          sécuritaires et bien entretenus pour toute la communauté. Que vous
+          soyez à la recherche d'une sortie en famille, d'un défi sportif ou
+          d'une expérience de plein air au cœur du Saguenay, nos réseaux de
+          sentiers sont pensés pour accueillir les passionnés de tous les
+          niveaux.
+        </p>
+        <p class="mb-0">
+          Derrière chaque saison se trouve le travail d'une organisation
+          engagée, soutenue par des partenaires, des bénévoles et une communauté
+          qui croit au développement durable du vélo de montagne dans la région.
+        </p>
+      </div>
+
+      <div class="col-lg-4">
+        <div class="card border-0 shadow-sm bg-light h-100">
+          <div class="card-body p-4">
+            <h3 class="h4 mb-3 d-flex align-items-center">
+              <i class="bi bi-bicycle text-primary me-2" aria-hidden="true"></i>
+              Pourquoi choisir Vélo Saguenay ?
+            </h3>
+            <ul class="list-unstyled mb-4">
+              <li class="mb-3 d-flex align-items-start">
+                <i
+                  class="bi bi-check-circle-fill text-primary me-2 mt-1"
+                  aria-hidden="true"
+                ></i>
+                <span>Deux sites complémentaires en milieu urbain</span>
+              </li>
+              <li class="mb-3 d-flex align-items-start">
+                <i
+                  class="bi bi-check-circle-fill text-primary me-2 mt-1"
+                  aria-hidden="true"
+                ></i>
+                <span>Des sentiers entretenus et en constante évolution</span>
+              </li>
+              <li class="mb-3 d-flex align-items-start">
+                <i
+                  class="bi bi-check-circle-fill text-primary me-2 mt-1"
+                  aria-hidden="true"
+                ></i>
+                <span>Une expérience adaptée aux familles et aux experts</span>
+              </li>
+              <li class="d-flex align-items-start">
+                <i
+                  class="bi bi-check-circle-fill text-primary me-2 mt-1"
+                  aria-hidden="true"
+                ></i>
+                <span>Une communauté locale active et accueillante</span>
+              </li>
+            </ul>
+
+            <div class="d-grid gap-2">
+              <RouterLink to="/about" class="btn btn-primary"
+                >Découvrir Vélo Saguenay</RouterLink
+              >
+              <RouterLink to="/involvement" class="btn btn-outline-secondary"
+                >S'impliquer avec nous</RouterLink
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <hr class="featurette-divider" />
+
+    <div
+      id="le-panoramique-section"
+      class="row featurette align-items-center g-5 mb-5 home-featurette-row"
+    >
       <div class="col-md-7">
         <h2 class="featurette-heading">Le Panoramique</h2>
         <p class="lead">
-          Le panoramique possède un réseau de plus de 41 km de sentiers étendu
-          sur 40 sentiers aménagés.
+          Le Panoramique possède un réseau de plus de 41 km répartis sur 40
+          sentiers aménagés, en faisant l'un des lieux incontournables pour
+          pratiquer le vélo de montagne au Saguenay.
         </p>
+        <p>
+          Situé à Chicoutimi, le site propose une expérience accessible et
+          diversifiée, autant pour les cyclistes qui souhaitent découvrir la
+          discipline que pour les adeptes qui veulent progresser et rouler plus
+          régulièrement dans un environnement de qualité.
+        </p>
+        <p>
+          En plus du réseau principal, Le Panoramique se démarque par ses
+          aménagements complémentaires comme le pumptrack, la piste d'agilité et
+          des espaces pensés pour profiter pleinement d'une journée en plein
+          air.
+        </p>
+        <p>
+          Pour planifier votre visite, vous pouvez consulter la carte des
+          sentiers, la billetterie et les ressources en ligne avant de vous
+          déplacer. L'objectif est simple : offrir une expérience fluide et
+          agréable dès votre arrivée sur le site.
+        </p>
+        <div class="row g-3 mb-4">
+          <div class="col-sm-6">
+            <div class="border rounded p-3 h-100 bg-light home-info-card">
+              <div class="d-flex align-items-center mb-2">
+                <i
+                  class="bi bi-signpost-split-fill text-primary me-2"
+                  aria-hidden="true"
+                ></i>
+                <strong>Réseau développé</strong>
+              </div>
+              <p class="mb-0 small">
+                40 sentiers aménagés pour rouler et progresser.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="border rounded p-3 h-100 bg-light home-info-card">
+              <div class="d-flex align-items-center mb-2">
+                <i
+                  class="bi bi-geo-alt-fill text-primary me-2"
+                  aria-hidden="true"
+                ></i>
+                <strong>Accessible</strong>
+              </div>
+              <p class="mb-0 small">
+                Un site urbain facile d'accès pour la communauté.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="border rounded p-3 h-100 bg-light home-info-card">
+              <div class="d-flex align-items-center mb-2">
+                <i
+                  class="bi bi-people-fill text-primary me-2"
+                  aria-hidden="true"
+                ></i>
+                <strong>Pour tous les styles</strong>
+              </div>
+              <p class="mb-0 small">
+                Sortie familiale, entraînement ou journée sportive.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="border rounded p-3 h-100 bg-light home-info-card">
+              <div class="d-flex align-items-center mb-2">
+                <i class="bi bi-stars text-primary me-2" aria-hidden="true"></i>
+                <strong>Installations variées</strong>
+              </div>
+              <p class="mb-0 small">
+                Pumptrack, piste d'agilité et services saisonniers.
+              </p>
+            </div>
+          </div>
+        </div>
         <p>
           <a
             href="documents/trails_map.pdf"
-            class="btn btn-lg btn-primary"
+            class="btn btn-lg btn-primary me-2 mb-2"
             target="_blank"
             >Carte des sentiers</a
           >
+          <a
+            href="https://www.trailforks.com/region/centre-de-velo-de-montagne-le-panoramique/"
+            class="btn btn-lg btn-outline-primary me-2 mb-2"
+            target="_blank"
+            >Trailfork</a
+          >
+          <a
+            href="https://app.endorphine.ca/c/lepanoramique"
+            class="btn btn-lg btn-outline-primary me-2 mb-2"
+            target="_blank"
+            >Billetterie</a
+          >
+          <a
+            href="https://www.facebook.com/VeloSaguenay/"
+            class="btn btn-lg btn-outline-secondary me-2 mb-2 d-inline-flex align-items-center"
+            target="_blank"
+          >
+            <i class="bi bi-facebook me-2" aria-hidden="true"></i>
+            Facebook
+          </a>
         </p>
       </div>
       <div class="col-md-5">
@@ -144,34 +327,141 @@
 
     <hr class="featurette-divider" />
 
-    <div class="row featurette">
+    <div
+      id="mont-belu-section"
+      class="row featurette align-items-center g-5 mb-5 home-featurette-row"
+    >
       <div class="col-md-7 order-md-2">
         <h2 class="featurette-heading">Mont-Bélu Véloparc</h2>
         <p class="lead">
-          Le centre de vélo de Descente Mont-Bélu Véloparc est situé en plein
-          cœur de La Baie. Plusieurs pistes de intermédiaire à expert sauront
-          vous convaincre!
+          Le Mont-Bélu Véloparc est un site phare de descente et d'enduro situé
+          à La Baie, reconnu pour son caractère unique, ses pistes travaillées
+          avec passion et ses panoramas impressionnants sur le Fjord du
+          Saguenay.
         </p>
         <p>
-          <RouterLink to="/mont-belu" class="btn btn-lg btn-primary"
-            >Plus d'informations</RouterLink
+          Depuis 2012, le site propose un sentier d'ascension ainsi que
+          plusieurs descentes de niveaux intermédiaire à expert. Une grande
+          partie des sentiers a été sculptée à la main afin d'offrir une
+          expérience plus naturelle, technique et engageante pour les amateurs
+          de vélo de montagne.
+        </p>
+        <p>
+          Avec sa remontée mécanique en T-Bar durant la saison estivale et son
+          ambiance résolument orientée vers la progression, Mont-Bélu attire les
+          cyclistes à la recherche d'action, de variété et d'un terrain de jeu
+          distinctif en plein cœur de la région.
+        </p>
+        <p>
+          C'est un site parfait pour les adeptes qui veulent enchaîner les
+          descentes, travailler leur technique et profiter d'un secteur qui a su
+          conserver un caractère brut, sportif et spectaculaire.
+        </p>
+        <div class="row g-3 mb-4">
+          <div class="col-sm-6">
+            <div class="border rounded p-3 h-100 bg-light home-info-card">
+              <div class="d-flex align-items-center mb-2">
+                <i
+                  class="bi bi-lightning-charge-fill text-primary me-2"
+                  aria-hidden="true"
+                ></i>
+                <strong>Style enduro et descente</strong>
+              </div>
+              <p class="mb-0 small">
+                Des lignes pensées pour la vitesse, la technique et le plaisir.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="border rounded p-3 h-100 bg-light home-info-card">
+              <div class="d-flex align-items-center mb-2">
+                <i
+                  class="bi bi-arrow-repeat text-primary me-2"
+                  aria-hidden="true"
+                ></i>
+                <strong>Remontée mécanique</strong>
+              </div>
+              <p class="mb-0 small">
+                Ouverte le mercredi de 16 h à 20 h et le dimanche de 10 h à 16
+                h.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="border rounded p-3 h-100 bg-light home-info-card">
+              <div class="d-flex align-items-center mb-2">
+                <i class="bi bi-tools text-primary me-2" aria-hidden="true"></i>
+                <strong>Sentiers façonnés à la main</strong>
+              </div>
+              <p class="mb-0 small">
+                Un terrain modelé par des passionnés pour une expérience unique.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="border rounded p-3 h-100 bg-light home-info-card">
+              <div class="d-flex align-items-center mb-2">
+                <i
+                  class="bi bi-clock-fill text-primary me-2"
+                  aria-hidden="true"
+                ></i>
+                <strong>Sentier d'ascension</strong>
+              </div>
+              <p class="mb-0 small">
+                Accès tous les jours de 7 h à 20 h pour prolonger les sorties.
+              </p>
+            </div>
+          </div>
+        </div>
+        <p>
+          <a
+            href="https://www.trailforks.com/region/montbelu-bike-park"
+            class="btn btn-lg btn-primary me-2 mb-2"
+            target="_blank"
+            >Carte des sentiers</a
           >
+          <a
+            href="https://app.reservationpresence.com/montbelubike"
+            class="btn btn-lg btn-outline-primary me-2 mb-2"
+            target="_blank"
+            >Billetterie</a
+          >
+          <a
+            href="https://www.facebook.com/montbelubikepark/"
+            class="btn btn-lg btn-outline-secondary me-2 mb-2 d-inline-flex align-items-center"
+            target="_blank"
+          >
+            <i class="bi bi-facebook me-2" aria-hidden="true"></i>
+            Facebook Mont-Bélu
+          </a>
         </p>
       </div>
       <div class="col-md-5 order-md-1">
         <img
           src="@/assets/media/images/gallery/belu_2_500.jpg"
-          class="rounded img-fluid"
-          alt=""
+          class="rounded img-fluid mb-3"
+          alt="Mont-Bélu Véloparc"
         />
+        <div
+          class="home-video-wrapper bg-dark rounded overflow-hidden shadow-sm"
+        >
+          <div class="ratio ratio-16x9">
+            <iframe
+              src="https://www.youtube.com/embed/jCSda8AfpVc"
+              title="Vidéo du Mont-Bélu Véloparc"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
       </div>
     </div>
 
     <hr class="featurette-divider" />
 
     <!-- Three columns of text below the carousel -->
-    <div class="row">
-      <div class="col-lg-4">
+    <div class="row g-4 home-location-row">
+      <div class="col-lg-6">
         <h4>Le Panoramique</h4>
         <p>1412 Chemin de la Réserve, <br />Chicoutimi, QC G7J 0K2</p>
         <p>
@@ -184,7 +474,7 @@
         </p>
       </div>
       <!-- /.col-lg-4 -->
-      <div class="col-lg-4">
+      <div class="col-lg-6">
         <h4>Mont-Bélu Véloparc</h4>
         <p>4855 Bd de la Grande-Baie-Sud, <br />La Baie, QC G7B 3P6</p>
         <p>
@@ -520,4 +810,40 @@
     </div>
   </div>
 </template>
-<script setup lang="ts"></script>
+<script setup lang="ts">
+function scrollToSection(sectionId: string): void {
+  document
+    .getElementById(sectionId)
+    ?.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+</script>
+
+<style scoped>
+.home-intro-row .featurette-heading,
+.home-featurette-row .featurette-heading {
+  margin-top: 0;
+}
+
+.home-featurette-row {
+  scroll-margin-top: 1.5rem;
+}
+
+.home-info-card i {
+  font-size: 1.1rem;
+}
+
+.home-video-wrapper {
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.home-location-row {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 62em) {
+  .home-intro-row .featurette-heading,
+  .home-featurette-row .featurette-heading {
+    margin-top: 0;
+  }
+}
+</style>

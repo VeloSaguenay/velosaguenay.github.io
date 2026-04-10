@@ -163,6 +163,30 @@
     </div>
 
     <hr class="featurette-divider" />
+
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2>Contactez-nous</h2>
+        <p class="lead mt-3">
+          Vous avez des questions, des commentaires ou souhaitez communiquer
+          avec l'équipe de Vélo Saguenay?
+        </p>
+        <p>
+          Le meilleur moyen de nous joindre est par notre page Facebook, où nous
+          partageons aussi les nouvelles et informations utiles en saison.
+        </p>
+        <a
+          href="https://www.facebook.com/VeloSaguenay/"
+          target="_blank"
+          class="btn btn-lg btn-outline-primary d-inline-flex align-items-center mt-2"
+        >
+          <i class="bi bi-facebook me-2" aria-hidden="true"></i>
+          Page Facebook de Vélo Saguenay
+        </a>
+      </div>
+    </div>
+
+    <hr class="featurette-divider" />
   </div>
 </template>
 <script setup lang="ts"></script>

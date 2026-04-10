@@ -72,7 +72,7 @@ async function navigateToSection(sectionId: string): Promise<void> {
               class="float-end d-block"
               href="https://www.facebook.com/VeloSaguenay/"
               target="_blank"
-              ><i class="bi bi-facebook" style="color: #6c757f"></i
+              ><i class="bi bi-facebook" style="color: #c0926a"></i
             ></a>
           </div>
         </div>

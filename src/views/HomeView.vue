@@ -77,7 +77,7 @@
       </div>
       <div class="carousel-item">
         <img
-          src="@/assets/media/images/gallery/belu_2.jpg"
+          src="@/assets/media/images/gallery/belu_3.jpg"
           class="img-fluid"
           alt=""
           style="filter: brightness(75%)"

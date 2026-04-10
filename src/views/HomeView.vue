@@ -330,7 +330,7 @@
       <div class="col-md-5">
         <img
           src="@/assets/media/images/gallery/pano_1_500.jpg"
-          class="rounded img-fluid shadow"
+          class="rounded img-fluid custom-media-shadow"
           alt=""
         />
       </div>
@@ -440,12 +440,9 @@
         </div>
       </div>
       <div class="col-md-5 order-md-1">
-        <img
-          src="@/assets/media/images/gallery/belu_2_500.jpg"
-          class="rounded img-fluid mb-3 shadow"
-          alt="Mont-Bélu Véloparc"
-        />
-        <div class="home-video-wrapper bg-dark rounded overflow-hidden shadow">
+        <div
+          class="home-video-wrapper bg-dark rounded overflow-hidden custom-media-shadow"
+        >
           <div class="ratio ratio-16x9">
             <iframe
               src="https://www.youtube.com/embed/jCSda8AfpVc"
@@ -920,6 +917,10 @@ onMounted(() => {
 
 .home-video-wrapper {
   border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+.custom-media-shadow {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3) !important;
 }
 
 .home-location-row {

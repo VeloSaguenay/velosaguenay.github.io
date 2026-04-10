@@ -208,30 +208,24 @@
       class="row featurette align-items-center g-5 mb-5 home-featurette-row"
     >
       <div class="col-md-7">
-        <h2 class="featurette-heading">Le Panoramique</h2>
-        <p class="lead">
+        <h2 class="featurette-heading mb-1">Le Panoramique</h2>
+        <p class="text-muted mb-4">
+          <i class="bi bi-geo-alt-fill text-primary me-1"></i> 1412 Chemin de la
+          Réserve, Chicoutimi, QC G7J 0K2
+          <a
+            class="ms-2 text-decoration-none fw-bold"
+            href="https://goo.gl/maps/ywCh5kfVbEmQ9UY17"
+            target="_blank"
+            >S'y rendre <i class="bi bi-arrow-right-short"></i
+          ></a>
+        </p>
+
+        <p class="lead mb-4">
           Le Panoramique possède un réseau de plus de 41 km répartis sur 40
-          sentiers aménagés, en faisant l'un des lieux incontournables pour
-          pratiquer le vélo de montagne au Saguenay.
+          sentiers aménagés, proposant une expérience accessible et diversifiée
+          pour tous les niveaux.
         </p>
-        <p>
-          Situé à Chicoutimi, le site propose une expérience accessible et
-          diversifiée, autant pour les cyclistes qui souhaitent découvrir la
-          discipline que pour les adeptes qui veulent progresser et rouler plus
-          régulièrement dans un environnement de qualité.
-        </p>
-        <p>
-          En plus du réseau principal, Le Panoramique se démarque par ses
-          aménagements complémentaires comme le pumptrack, la piste d'agilité et
-          des espaces pensés pour profiter pleinement d'une journée en plein
-          air.
-        </p>
-        <p>
-          Pour planifier votre visite, vous pouvez consulter la carte des
-          sentiers, la billetterie et les ressources en ligne avant de vous
-          déplacer. L'objectif est simple : offrir une expérience fluide et
-          agréable dès votre arrivée sur le site.
-        </p>
+
         <div class="row g-3 mb-4">
           <div class="col-sm-6">
             <div class="border rounded p-3 h-100 bg-light home-info-card">
@@ -287,34 +281,34 @@
             </div>
           </div>
         </div>
-        <p>
+        <div class="d-flex flex-wrap gap-2">
+          <a
+            href="https://app.endorphine.ca/c/lepanoramique"
+            class="btn btn-primary"
+            target="_blank"
+          >
+            <i class="bi bi-ticket-perforated me-1"></i> Billetterie
+          </a>
           <a
             href="documents/trails_map.pdf"
-            class="btn btn-lg btn-primary me-2 mb-2"
+            class="btn btn-outline-primary"
             target="_blank"
             >Carte des sentiers</a
           >
           <a
             href="https://www.trailforks.com/region/centre-de-velo-de-montagne-le-panoramique/"
-            class="btn btn-lg btn-outline-primary me-2 mb-2"
+            class="btn btn-outline-primary"
             target="_blank"
-            >Trailfork</a
-          >
-          <a
-            href="https://app.endorphine.ca/c/lepanoramique"
-            class="btn btn-lg btn-outline-primary me-2 mb-2"
-            target="_blank"
-            >Billetterie</a
+            >Trailforks</a
           >
           <a
             href="https://www.facebook.com/VeloSaguenay/"
-            class="btn btn-lg btn-outline-secondary me-2 mb-2 d-inline-flex align-items-center"
+            class="btn btn-outline-secondary px-3"
             target="_blank"
           >
-            <i class="bi bi-facebook me-2" aria-hidden="true"></i>
-            Facebook
+            <i class="bi bi-facebook" aria-hidden="true"></i>
           </a>
-        </p>
+        </div>
       </div>
       <div class="col-md-5">
         <img
@@ -332,31 +326,24 @@
       class="row featurette align-items-center g-5 mb-5 home-featurette-row"
     >
       <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Mont-Bélu Véloparc</h2>
-        <p class="lead">
-          Le Mont-Bélu Véloparc est un site phare de descente et d'enduro situé
-          à La Baie, reconnu pour son caractère unique, ses pistes travaillées
-          avec passion et ses panoramas impressionnants sur le Fjord du
-          Saguenay.
+        <h2 class="featurette-heading mb-1">Mont-Bélu Véloparc</h2>
+        <p class="text-muted mb-4">
+          <i class="bi bi-geo-alt-fill text-primary me-1"></i> 4855 Bd de la
+          Grande-Baie-Sud, La Baie, QC G7B 3P6
+          <a
+            class="ms-2 text-decoration-none fw-bold"
+            href="https://goo.gl/maps/MnKD1uFBZFQsuGJf7"
+            target="_blank"
+            >S'y rendre <i class="bi bi-arrow-right-short"></i
+          ></a>
         </p>
-        <p>
-          Depuis 2012, le site propose un sentier d'ascension ainsi que
-          plusieurs descentes de niveaux intermédiaire à expert. Une grande
-          partie des sentiers a été sculptée à la main afin d'offrir une
-          expérience plus naturelle, technique et engageante pour les amateurs
-          de vélo de montagne.
+
+        <p class="lead mb-4">
+          Un site phare de descente et d'enduro reconnu pour son caractère
+          unique, ses pistes sculptées à la main et ses panoramas
+          impressionnants sur le Fjord.
         </p>
-        <p>
-          Avec sa remontée mécanique en T-Bar durant la saison estivale et son
-          ambiance résolument orientée vers la progression, Mont-Bélu attire les
-          cyclistes à la recherche d'action, de variété et d'un terrain de jeu
-          distinctif en plein cœur de la région.
-        </p>
-        <p>
-          C'est un site parfait pour les adeptes qui veulent enchaîner les
-          descentes, travailler leur technique et profiter d'un secteur qui a su
-          conserver un caractère brut, sportif et spectaculaire.
-        </p>
+
         <div class="row g-3 mb-4">
           <div class="col-sm-6">
             <div class="border rounded p-3 h-100 bg-light home-info-card">
@@ -382,8 +369,7 @@
                 <strong>Remontée mécanique</strong>
               </div>
               <p class="mb-0 small">
-                Ouverte le mercredi de 16 h à 20 h et le dimanche de 10 h à 16
-                h.
+                Ouverte le mercredi (16h-20h) et le dimanche (10h-16h).
               </p>
             </div>
           </div>
@@ -408,33 +394,33 @@
                 <strong>Sentier d'ascension</strong>
               </div>
               <p class="mb-0 small">
-                Accès tous les jours de 7 h à 20 h pour prolonger les sorties.
+                Accès tous les jours de 7h à 20h pour prolonger les sorties.
               </p>
             </div>
           </div>
         </div>
-        <p>
-          <a
-            href="https://www.trailforks.com/region/montbelu-bike-park"
-            class="btn btn-lg btn-primary me-2 mb-2"
-            target="_blank"
-            >Carte des sentiers</a
-          >
+        <div class="d-flex flex-wrap gap-2">
           <a
             href="https://app.reservationpresence.com/montbelubike"
-            class="btn btn-lg btn-outline-primary me-2 mb-2"
+            class="btn btn-primary"
             target="_blank"
-            >Billetterie</a
+          >
+            <i class="bi bi-ticket-perforated me-1"></i> Billetterie
+          </a>
+          <a
+            href="https://www.trailforks.com/region/montbelu-bike-park"
+            class="btn btn-outline-primary"
+            target="_blank"
+            >Carte des sentiers / Trailforks</a
           >
           <a
             href="https://www.facebook.com/montbelubikepark/"
-            class="btn btn-lg btn-outline-secondary me-2 mb-2 d-inline-flex align-items-center"
+            class="btn btn-outline-secondary px-3"
             target="_blank"
           >
-            <i class="bi bi-facebook me-2" aria-hidden="true"></i>
-            Facebook Mont-Bélu
+            <i class="bi bi-facebook" aria-hidden="true"></i>
           </a>
-        </p>
+        </div>
       </div>
       <div class="col-md-5 order-md-1">
         <img
@@ -454,39 +440,6 @@
         </div>
       </div>
     </div>
-
-    <hr class="featurette-divider" />
-
-    <!-- Three columns of text below the carousel -->
-    <div class="row g-4 home-location-row">
-      <div class="col-lg-6">
-        <h4>Le Panoramique</h4>
-        <p>1412 Chemin de la Réserve, <br />Chicoutimi, QC G7J 0K2</p>
-        <p>
-          <a
-            class="link-dark"
-            href="https://goo.gl/maps/ywCh5kfVbEmQ9UY17"
-            target="_blank"
-            >Vous rendre &raquo;</a
-          >
-        </p>
-      </div>
-      <!-- /.col-lg-4 -->
-      <div class="col-lg-6">
-        <h4>Mont-Bélu Véloparc</h4>
-        <p>4855 Bd de la Grande-Baie-Sud, <br />La Baie, QC G7B 3P6</p>
-        <p>
-          <a
-            class="link-dark"
-            href="https://goo.gl/maps/MnKD1uFBZFQsuGJf7"
-            target="_blank"
-            >Vous rendre &raquo;</a
-          >
-        </p>
-      </div>
-      <!-- /.col-lg-4 -->
-    </div>
-    <!-- /.row -->
 
     <!-- /END THE FEATURETTES -->
   </div>

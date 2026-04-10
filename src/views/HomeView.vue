@@ -445,14 +445,32 @@
   </div>
   <!-- /.container -->
 
-  <div class="partners-section">
-    <div class="container">
-      <h2 class="partners text-center">Les partenaires</h2>
+  <div
+    class="partners-section py-5 bg-white rounded-4 shadow-sm mt-5 mx-2 mx-md-0 mb-5"
+  >
+    <div class="container px-4 px-md-5">
+      <div class="text-center mb-5">
+        <span
+          class="badge bg-primary bg-opacity-10 text-primary px-3 py-2 rounded-pill fs-6 text-uppercase mb-2"
+          style="letter-spacing: 0.05em"
+          >Communauté</span
+        >
+        <h2 class="display-5 fw-bold mt-2 text-dark mb-3">Nos Partenaires</h2>
+        <p class="lead text-muted mx-auto" style="max-width: 700px">
+          Vélo Saguenay remercie chaleureusement les entreprises et
+          organisations qui rendent possible le développement et l'entretien de
+          nos sentiers tout au long de l'année.
+        </p>
+      </div>
 
-      <hr class="mb-5 mt-5" />
-
+      <div class="d-flex align-items-center justify-content-center mt-5 mb-4">
+        <span
+          class="text-uppercase text-muted fw-bold fs-6"
+          style="letter-spacing: 0.08em"
+          >Grand Partenaire</span
+        >
+      </div>
       <div class="row justify-content-center g-4">
-        <h4 class="text-center mb-5">Grand Partenaire</h4>
         <div class="col-lg-3 col-md-4 col-6">
           <a
             class="partner-card"
@@ -485,10 +503,16 @@
         </div>
       </div>
 
-      <hr class="mb-5 mt-5" />
-
+      <div
+        class="d-flex align-items-center justify-content-center mt-5 pt-3 mb-4"
+      >
+        <span
+          class="text-uppercase text-muted fw-bold fs-6"
+          style="letter-spacing: 0.08em"
+          >Sentier</span
+        >
+      </div>
       <div class="row justify-content-center g-4">
-        <h4 class="text-center mb-5">Sentier</h4>
         <div class="col-lg-3 col-md-4 col-6">
           <a
             class="partner-card"
@@ -532,10 +556,16 @@
         </div>
       </div>
 
-      <hr class="mb-5 mt-5" />
-
+      <div
+        class="d-flex align-items-center justify-content-center mt-5 pt-3 mb-4"
+      >
+        <span
+          class="text-uppercase text-muted fw-bold fs-6"
+          style="letter-spacing: 0.08em"
+          >All Mountain</span
+        >
+      </div>
       <div class="row justify-content-center g-4">
-        <h4 class="text-center mb-5">All Mountain</h4>
         <div class="col-lg-3 col-md-4 col-6">
           <a
             class="partner-card"
@@ -652,10 +682,16 @@
         </div>
       </div>
 
-      <hr class="mb-5 mt-5" />
-
+      <div
+        class="d-flex align-items-center justify-content-center mt-5 pt-3 mb-4"
+      >
+        <span
+          class="text-uppercase text-muted fw-bold fs-6"
+          style="letter-spacing: 0.08em"
+          >Grand pignon</span
+        >
+      </div>
       <div class="row justify-content-center g-4">
-        <h4 class="text-center mb-5">Grand pignon</h4>
         <div class="col-lg-3 col-md-4 col-6">
           <a class="partner-card" href="#" target="_blank"
             ><img
@@ -693,10 +729,16 @@
         </div>
       </div>
 
-      <hr class="mb-5 mt-5" />
-
+      <div
+        class="d-flex align-items-center justify-content-center mt-5 pt-3 mb-4"
+      >
+        <span
+          class="text-uppercase text-muted fw-bold fs-6"
+          style="letter-spacing: 0.08em"
+          >Moyen pignon</span
+        >
+      </div>
       <div class="row justify-content-center mb-3 g-4">
-        <h4 class="text-center mb-5">Moyen pignon</h4>
         <div class="col-lg-3 col-md-4 col-6">
           <a
             class="partner-card"
@@ -847,13 +889,6 @@ function scrollToSection(sectionId: string): void {
   .home-featurette-row .featurette-heading {
     margin-top: 0;
   }
-}
-
-.partners-section {
-  margin: 4rem 0 2rem;
-  background-color: transparent;
-  box-shadow: none;
-  padding: 0;
 }
 
 .partner-card {

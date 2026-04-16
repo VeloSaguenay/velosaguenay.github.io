@@ -59,21 +59,13 @@
             <h1>Contribuez en devenant membre</h1>
             <p>Passe de saison disponible</p>
             <p>
-              <span
-                class="d-inline-block me-2 mb-2"
-                tabindex="0"
-                data-bs-toggle="tooltip"
-                data-bs-placement="top"
-                data-bs-title="Billetterie temporairement indisponible (changement de plateforme en cours)"
+              <a
+                class="btn btn-lg btn-primary me-2 mb-2"
+                href="https://app.reservationpresence.com/lepanoramique"
+                target="_blank"
               >
-                <button
-                  class="btn btn-lg btn-primary"
-                  disabled
-                  style="pointer-events: none"
-                >
-                  Billetterie Le Panoramique
-                </button>
-              </span>
+                Billetterie Le Panoramique
+              </a>
               <a
                 class="btn btn-lg btn-primary mb-2"
                 href="https://app.reservationpresence.com/montbelubike"
@@ -295,21 +287,13 @@
           </div>
         </div>
         <div class="d-flex flex-wrap gap-2">
-          <span
-            class="d-inline-block"
-            tabindex="0"
-            data-bs-toggle="tooltip"
-            data-bs-placement="top"
-            data-bs-title="Billetterie temporairement indisponible (changement de plateforme en cours)"
+          <a
+            href="https://app.reservationpresence.com/lepanoramique"
+            class="btn btn-primary"
+            target="_blank"
           >
-            <button
-              class="btn btn-primary"
-              disabled
-              style="pointer-events: none"
-            >
-              <i class="bi bi-ticket-perforated me-1"></i> Billetterie
-            </button>
-          </span>
+            <i class="bi bi-ticket-perforated me-1"></i> Billetterie
+          </a>
           <a
             href="documents/trails_map.pdf"
             class="btn btn-outline-primary"

@@ -34,14 +34,21 @@
           <div class="carousel-caption text-start">
             <h1>Le Panoramique</h1>
             <p>Des sentiers de rêves en été comme en hiver !</p>
-            <p>
+            <p class="d-flex flex-wrap gap-2">
               <button
                 type="button"
                 class="btn btn-lg btn-primary"
                 @click="scrollToSection('le-panoramique-section')"
               >
-                Découvrir la section
+                Découvrir
               </button>
+              <a
+                href="https://app.reservationpresence.com/lepanoramique"
+                class="btn btn-lg btn-primary"
+                target="_blank"
+              >
+                Acheter votre passe de saison
+              </a>
             </p>
           </div>
         </div>
@@ -92,7 +99,7 @@
                 class="btn btn-lg btn-primary"
                 @click="scrollToSection('mont-belu-section')"
               >
-                Découvrir la section
+                Découvrir
               </button>
             </p>
           </div>
@@ -286,6 +293,21 @@
             </div>
           </div>
         </div>
+        <div class="alert alert-warning border-warning mb-4 pano-waiver-alert" role="alert">
+          <div class="d-flex align-items-start">
+            <i class="bi bi-exclamation-triangle-fill text-warning me-2 mt-1 flex-shrink-0" aria-hidden="true"></i>
+            <div>
+              <strong>14 ans et moins — décharge de responsabilité obligatoire</strong><br>
+              <span class="small">Un parent ou tuteur légal doit signer le formulaire de décharge avant l'accès aux sentiers.</span>
+              <div class="mt-2">
+                <a href="documents/waivers-2026.pdf" class="btn btn-sm btn-warning fw-bold" target="_blank">
+                  <i class="bi bi-file-earmark-pdf me-1"></i> Télécharger le formulaire 2026
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div class="d-flex flex-wrap gap-2">
           <a
             href="https://app.reservationpresence.com/lepanoramique"

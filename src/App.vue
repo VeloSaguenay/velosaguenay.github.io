@@ -2,6 +2,7 @@
 import { nextTick, onMounted } from "vue";
 import { RouterLink, RouterView, useRouter } from "vue-router";
 import AOS from "aos";
+import WaiverAlertBanner from "@/components/WaiverAlertBanner.vue";
 import "aos/dist/aos.css";
 
 const router = useRouter();
@@ -37,6 +38,8 @@ async function navigateToSection(sectionId: string): Promise<void> {
 </script>
 
 <template>
+  <WaiverAlertBanner />
+
   <div class="container">
     <header class="d-flex flex-wrap justify-content-center py-3 mb-1">
       <RouterLink

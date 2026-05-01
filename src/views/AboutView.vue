@@ -162,8 +162,8 @@ const boardMembers = [
   },
   { name: "Pascal Tremblay", role: "Administrateur" },
   { name: "Réjean Côté", role: "Administrateur" },
-  { name: "Pascal Bejjani", role: "Administrateur" },
-  { name: "Charles Sexton", role: "Administrateur" },
+  { name: "Eric Truchon", role: "Administrateur" },
+  { name: "David Lapointe", role: "Administrateur" },
   { name: "Patrice Dallaire", role: "Administrateur" },
 ];
 </script>

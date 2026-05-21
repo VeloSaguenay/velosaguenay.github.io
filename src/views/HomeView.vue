@@ -317,16 +317,10 @@
             <i class="bi bi-ticket-perforated me-1"></i> Billetterie
           </a>
           <a
-            href="documents/trails_map.pdf"
+            href="https://carte.velosaguenay.ca"
             class="btn btn-outline-primary"
             target="_blank"
             >Carte des sentiers</a
-          >
-          <a
-            href="https://www.trailforks.com/region/centre-de-velo-de-montagne-le-panoramique/"
-            class="btn btn-outline-primary"
-            target="_blank"
-            >Trailforks</a
           >
           <a
             href="https://www.facebook.com/VeloSaguenay/"

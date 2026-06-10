@@ -317,7 +317,7 @@
             <i class="bi bi-ticket-perforated me-1"></i> Billetterie
           </a>
           <a
-            href="https://carte.velosaguenay.ca"
+            href="https://www.loamap.com/le-panoramique"
             class="btn btn-outline-primary"
             target="_blank"
             >Carte des sentiers</a

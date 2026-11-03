@@ -293,15 +293,32 @@
             </div>
           </div>
         </div>
-        <div class="alert alert-warning border-warning mb-4 pano-waiver-alert" role="alert">
+        <div
+          class="alert alert-warning border-warning mb-4 pano-waiver-alert"
+          role="alert"
+        >
           <div class="d-flex align-items-start">
-            <i class="bi bi-exclamation-triangle-fill text-warning me-2 mt-1 flex-shrink-0" aria-hidden="true"></i>
+            <i
+              class="bi bi-exclamation-triangle-fill text-warning me-2 mt-1 flex-shrink-0"
+              aria-hidden="true"
+            ></i>
             <div>
-              <strong>14 ans et moins — décharge de responsabilité obligatoire</strong><br>
-              <span class="small">Un parent ou tuteur légal doit signer le formulaire de décharge avant l'accès aux sentiers.</span>
+              <strong
+                >14 ans et moins — décharge de responsabilité
+                obligatoire</strong
+              ><br />
+              <span class="small"
+                >Un parent ou tuteur légal doit signer le formulaire de décharge
+                avant l'accès aux sentiers.</span
+              >
               <div class="mt-2">
-                <a href="documents/waivers-2026.pdf" class="btn btn-sm btn-warning fw-bold" target="_blank">
-                  <i class="bi bi-file-earmark-pdf me-1"></i> Télécharger le formulaire 2026
+                <a
+                  href="documents/waivers-2026.pdf"
+                  class="btn btn-sm btn-warning fw-bold"
+                  target="_blank"
+                >
+                  <i class="bi bi-file-earmark-pdf me-1"></i> Télécharger le
+                  formulaire 2026
                 </a>
               </div>
             </div>

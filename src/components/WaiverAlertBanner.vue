@@ -1,17 +1,26 @@
 <template>
-  <div
-    v-if="!isClosed"
-    class="waiver-banner"
-    role="alert"
-  >
-    <div class="container d-flex align-items-center justify-content-between gap-3">
+  <div v-if="!isClosed" class="waiver-banner" role="alert">
+    <div
+      class="container d-flex align-items-center justify-content-between gap-3"
+    >
       <span>
         <i class="bi bi-exclamation-triangle-fill me-2" aria-hidden="true"></i>
         <strong>Le Panoramique — 14 ans et moins :</strong>
-        décharge de responsabilité parentale obligatoire avant l'accès aux sentiers.
-        <a href="documents/waivers-2026.pdf" class="fw-bold ms-1" target="_blank">Télécharger le formulaire →</a>
+        décharge de responsabilité parentale obligatoire avant l'accès aux
+        sentiers.
+        <a
+          href="documents/waivers-2026.pdf"
+          class="fw-bold ms-1"
+          target="_blank"
+          >Télécharger le formulaire →</a
+        >
       </span>
-      <button type="button" class="btn-close btn-close-sm flex-shrink-0" aria-label="Fermer" @click="closeBanner"></button>
+      <button
+        type="button"
+        class="btn-close btn-close-sm flex-shrink-0"
+        aria-label="Fermer"
+        @click="closeBanner"
+      ></button>
     </div>
   </div>
 </template>

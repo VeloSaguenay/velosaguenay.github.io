@@ -11,13 +11,13 @@ These guidelines are specifically curated for the VeloSaguenay application. Foll
 ## Foundational Context
 This application is a Vue 3 + TypeScript static website and its main packages & versions are below. You are an expert with them all. Ensure you abide by these specific packages & versions.
 
-- vue (VUE) - v3.5.13
-- vue-router (VUE_ROUTER) - v4.5.0
-- typescript (TYPESCRIPT) - v4.5.5
-- vite (VITE) - v2.9.18
-- bootstrap (BOOTSTRAP) - v5.3.3
-- @vitejs/plugin-vue (VITE_PLUGIN_VUE) - v2.3.4
-- vue-tsc (VUE_TSC) - v0.31.4
+- vue (VUE) - v3.5.44
+- vue-router (VUE_ROUTER) - v4.6.4
+- typescript (TYPESCRIPT) - v5.9.3
+- vite (VITE) - v8.3.5
+- bootstrap (BOOTSTRAP) - v5.3.8
+- @vitejs/plugin-vue (VITE_PLUGIN_VUE) - v6.0.10
+- vue-tsc (VUE_TSC) - v3.3.14
 - eslint (ESLINT) - v8.57.1
 - prettier (PRETTIER) - v2.8.8
 

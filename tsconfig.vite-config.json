@@ -1,8 +1,12 @@
 {
-  "extends": "@vue/tsconfig/tsconfig.node.json",
   "include": ["vite.config.*"],
   "compilerOptions": {
     "composite": true,
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "target": "ES2022",
+    "strict": true,
+    "skipLibCheck": true,
     "types": ["node"]
   }
 }

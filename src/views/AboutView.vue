@@ -114,7 +114,9 @@
             class="bg-white rounded-4 shadow-sm p-4 h-100 text-center d-flex flex-column justify-content-center border-top border-primary border-4"
           >
             <h3 class="h5 fw-bold mb-2">Nicolas Clément</h3>
-            <p class="text-muted small mb-0">Directeur des opérations ski et vélo</p>
+            <p class="text-muted small mb-0">
+              Directeur des opérations ski et vélo
+            </p>
           </div>
         </div>
       </div>
